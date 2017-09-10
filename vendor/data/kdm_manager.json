@@ -4357,273 +4357,269 @@
     }
   },
   "expansions": {
-    "promo_and_misc": {
-      "white_box": {
-        "released": "1471320000",
-        "subtitle": "Adds promotional content (items, Abilities & Impairments, etc.) to Settlement and Survivor Sheet drop-down lists. Content includes Gen Con, Black Friday and other promos.",
-        "name": "White Box & Promo",
-        "flair": {
-          "color": "#FFF",
-          "bgcolor": "#4EC6F0"
-        }
-      },
-      "beta_challenge_scenarios": {
-        "subtitle": "Enables abilities & impairments, disorders, items etc. included in the Beta Challenge Scenarios.",
-        "name": "Beta Challenge Scenarios",
-        "released": "1454302800",
-        "enforce_survival_limit": false,
-        "special_rules": [{
-          "bg_color": "F87217",
-          "desc": "Survival Limit is not automatically enforced by the Manager when Beta Challenge Scenarios content is enabled.",
-          "name": "Survival Limit Warning!",
-          "font_color": "FFF"
-        }],
-        "flair": {
-          "color": "#FFF",
-          "bgcolor": "#4EC6F0"
-        }
+    "white_box": {
+      "released": "1471320000",
+      "subtitle": "Adds promotional content (items, Abilities & Impairments, etc.) to Settlement and Survivor Sheet drop-down lists. Content includes Gen Con, Black Friday and other promos.",
+      "name": "White Box & Promo",
+      "flair": {
+        "color": "#FFF",
+        "bgcolor": "#4EC6F0"
       }
     },
-    "mar_2016_expansions": {
-      "spidicules": {
-        "quarries": ["spidicules"],
-        "name": "Spidicules",
-        "always_available": {
-          "location": ["Silk Mill"],
-          "innovation": ["Legless Ball", "Silk-Refining"]
-        },
-        "timeline_rm": [{
-          "type": "story_event",
-          "name": "Endless Screams",
-          "ly": 2
-        }],
-        "timeline_add": [{
-          "handle": "spid_young_rivals",
-          "type": "story_event",
-          "ly": 2
-        }],
-        "flair": {
-          "color": "#333",
-          "bgcolor": "#C0B870"
-        }
-      },
-      "slenderman": {
-        "rm_nemesis_monsters": ["kings_man"],
-        "name": "Slenderman",
-        "always_available": {
-          "innovation": ["Dark Water Research"]
-        },
-        "timeline_rm": [{
-          "type": "story_event",
-          "name": "Armored Strangers",
-          "ly": 6
-        }, {
-          "type": "nemesis_encounter",
-          "name": "Nemesis Encounter: King's Man",
-          "ly": 9
-        }],
-        "nemesis_monsters": ["slenderman"],
-        "timeline_add": [{
-          "handle": "slender_its_already_here",
-          "type": "story_event",
-          "ly": 6
-        }, {
-          "type": "nemesis_encounter",
-          "name": "Nemesis Encounter",
-          "ly": 9
-        }],
-        "flair": {
-          "color": "#fff2b7",
-          "bgcolor": "#BEA9CB"
-        }
-      },
-      "manhunter": {
-        "name": "Manhunter",
-        "special_showdowns": ["manhunter"],
-        "always_available": {
-          "innovation": ["War Room", "Settlement Watch", "Crimson Candy"]
-        },
-        "nemesis_monsters": ["manhunter"],
-        "timeline_add": [{
-          "handle": "mh_hanged_man",
-          "type": "story_event",
-          "ly": 5
-        }, {
-          "type": "special_showdown",
-          "name": "Special Showdown - Manhunter",
-          "ly": 5
-        }, {
-          "type": "special_showdown",
-          "name": "Special Showdown - Manhunter",
-          "ly": 10
-        }, {
-          "type": "special_showdown",
-          "name": "Special Showdown - Manhunter",
-          "ly": 16
-        }, {
-          "type": "special_showdown",
-          "name": "Special Showdown - Manhunter",
-          "ly": 22
-        }],
-        "flair": {
-          "color": "#E8cE55",
-          "bgcolor": "#8D0000"
-        }
-      },
-      "dung_beetle_knight": {
-        "timeline_add": [{
-          "handle": "dbk_rumbling_in_the_dark",
-          "type": "story_event",
-          "ly": 8
-        }],
-        "always_available": {
-          "innocation": ["Subterranean Agriculture"],
-          "location": ["Wet Resin Crafter"]
-        },
-        "quarries": ["dung_beetle_knight"],
-        "name": "Dung Beetle Knight",
-        "flair": {
-          "color": "#EAE40A",
-          "bgcolor": "#C3C8AB"
-        }
-      },
-      "lion_god": {
-        "timeline_add": [{
-          "handle": "lgod_silver_city",
-          "type": "story_event",
-          "ly": 13
-        }],
-        "always_available": {
-          "innovation": ["The Knowledge Worm"]
-        },
-        "quarries": ["lion_god"],
-        "name": "Lion God",
-        "flair": {
-          "color": "#E8cE55",
-          "bgcolor": "#712C2B"
-        }
-      },
-      "gorm": {
-        "timeline_add": [{
-          "handle": "gorm_approaching_storm",
-          "type": "story_event",
-          "ly": 1
-        }, {
-          "type": "settlement_event",
-          "name": "Gorm Climate",
-          "ly": 2
-        }],
-        "always_available": {
-          "location": ["Gormery", "Gormchymist"],
-          "innovation": ["Nigredo"]
-        },
-        "quarries": ["gorm"],
-        "name": "Gorm",
-        "flair": {
-          "color": "#EAE40A",
-          "bgcolor": "#958C83"
-        }
-      },
-      "dragon_king": {
-        "timeline_add": [{
-          "handle": "dk_glowing_crater",
-          "excluded_campaign": "people_of_the_stars",
-          "type": "story_event",
-          "ly": 8
-        }],
-        "always_available": {
-          "location": ["Dragon Armory"]
-        },
-        "quarries": ["dragon_king"],
-        "name": "Dragon King",
-        "flair": {
-          "color": "#E8cE55",
-          "bgcolor": "#6260A9"
-        }
-      },
-      "lion_knight": {
-        "quarries": ["lion_knight"],
-        "name": "Lion Knight",
-        "special_showdowns": ["lion_knight"],
-        "always_available": {
-          "innovation": ["Stoic Statue"]
-        },
-        "timeline_add": [{
-          "handle": "lk_uninvited_guest",
-          "type": "story_event",
-          "ly": 6
-        }, {
-          "handle": "lk_places_everyone",
-          "type": "story_event",
-          "ly": 8
-        }, {
-          "type": "special_showdown",
-          "name": "Special Showdown - Lion Knight Lvl 1",
-          "ly": 8
-        }, {
-          "handle": "lk_places_everyone",
-          "type": "story_event",
-          "ly": 12
-        }, {
-          "type": "special_showdown",
-          "name": "Special Showdown - Lion Knight Lvl 2",
-          "ly": 12
-        }, {
-          "handle": "lk_places_everyone",
-          "type": "story_event",
-          "ly": 16
-        }, {
-          "type": "special_showdown",
-          "name": "Special Showdown - Lion Knight Lvl 3",
-          "ly": 16
-        }],
-        "flair": {
-          "color": "#666",
-          "bgcolor": "#FCF78F"
-        }
-      },
-      "sunstalker": {
-        "quarries": ["sunstalker"],
-        "name": "Sunstalker",
-        "always_available": {
-          "location": ["Skyreef Sanctuary"],
-          "innovation": ["Umbilical Bank"]
-        },
-        "survivor_attribs": ["Purified", "Sun Eater", "Child of the Sun"],
-        "timeline_add": [{
-          "handle": "ss_promise_under_the_sun",
-          "excluded_campaign": "people_of_the_sun",
-          "type": "story_event",
-          "ly": 8
-        }],
-        "flair": {
-          "color": "#000",
-          "bgcolor": "#ECD77E"
-        }
-      },
-      "green_knight_armor": {
-        "subtitle": "Crafting GKA items requires DBK, Flower Knight, Lion Knight and Gorm expansions!",
-        "name": "Green Knight Armor",
-        "always_available": {}
-      },
-      "flower_knight": {
-        "timeline_add": [{
-          "handle": "fk_crones_tale",
-          "excluded_campaign": "the_bloom_people",
-          "type": "story_event",
-          "ly": 5
-        }],
-        "quarries": ["flower_knight"],
-        "name": "Flower Knight",
-        "flair": {
-          "color": "#EAE40A",
-          "bgcolor": "#4E7D49"
-        }
-      },
-      "lonely_tree": {
-        "name": "Lonely Tree",
-        "special_showdowns": ["lonely_tree"]
+    "beta_challenge_scenarios": {
+      "subtitle": "Enables abilities & impairments, disorders, items etc. included in the Beta Challenge Scenarios.",
+      "name": "Beta Challenge Scenarios",
+      "released": "1454302800",
+      "enforce_survival_limit": false,
+      "special_rules": [{
+        "bg_color": "F87217",
+        "desc": "Survival Limit is not automatically enforced by the Manager when Beta Challenge Scenarios content is enabled.",
+        "name": "Survival Limit Warning!",
+        "font_color": "FFF"
+      }],
+      "flair": {
+        "color": "#FFF",
+        "bgcolor": "#4EC6F0"
       }
+    },
+    "spidicules": {
+      "quarries": ["spidicules"],
+      "name": "Spidicules",
+      "always_available": {
+        "location": ["Silk Mill"],
+        "innovation": ["Legless Ball", "Silk-Refining"]
+      },
+      "timeline_rm": [{
+        "type": "story_event",
+        "name": "Endless Screams",
+        "ly": 2
+      }],
+      "timeline_add": [{
+        "handle": "spid_young_rivals",
+        "type": "story_event",
+        "ly": 2
+      }],
+      "flair": {
+        "color": "#333",
+        "bgcolor": "#C0B870"
+      }
+    },
+    "slenderman": {
+      "rm_nemesis_monsters": ["kings_man"],
+      "name": "Slenderman",
+      "always_available": {
+        "innovation": ["Dark Water Research"]
+      },
+      "timeline_rm": [{
+        "type": "story_event",
+        "name": "Armored Strangers",
+        "ly": 6
+      }, {
+        "type": "nemesis_encounter",
+        "name": "Nemesis Encounter: King's Man",
+        "ly": 9
+      }],
+      "nemesis_monsters": ["slenderman"],
+      "timeline_add": [{
+        "handle": "slender_its_already_here",
+        "type": "story_event",
+        "ly": 6
+      }, {
+        "type": "nemesis_encounter",
+        "name": "Nemesis Encounter",
+        "ly": 9
+      }],
+      "flair": {
+        "color": "#fff2b7",
+        "bgcolor": "#BEA9CB"
+      }
+    },
+    "manhunter": {
+      "name": "Manhunter",
+      "special_showdowns": ["manhunter"],
+      "always_available": {
+        "innovation": ["War Room", "Settlement Watch", "Crimson Candy"]
+      },
+      "nemesis_monsters": ["manhunter"],
+      "timeline_add": [{
+        "handle": "mh_hanged_man",
+        "type": "story_event",
+        "ly": 5
+      }, {
+        "type": "special_showdown",
+        "name": "Special Showdown - Manhunter",
+        "ly": 5
+      }, {
+        "type": "special_showdown",
+        "name": "Special Showdown - Manhunter",
+        "ly": 10
+      }, {
+        "type": "special_showdown",
+        "name": "Special Showdown - Manhunter",
+        "ly": 16
+      }, {
+        "type": "special_showdown",
+        "name": "Special Showdown - Manhunter",
+        "ly": 22
+      }],
+      "flair": {
+        "color": "#E8cE55",
+        "bgcolor": "#8D0000"
+      }
+    },
+    "dung_beetle_knight": {
+      "timeline_add": [{
+        "handle": "dbk_rumbling_in_the_dark",
+        "type": "story_event",
+        "ly": 8
+      }],
+      "always_available": {
+        "innocation": ["Subterranean Agriculture"],
+        "location": ["Wet Resin Crafter"]
+      },
+      "quarries": ["dung_beetle_knight"],
+      "name": "Dung Beetle Knight",
+      "flair": {
+        "color": "#EAE40A",
+        "bgcolor": "#C3C8AB"
+      }
+    },
+    "lion_god": {
+      "timeline_add": [{
+        "handle": "lgod_silver_city",
+        "type": "story_event",
+        "ly": 13
+      }],
+      "always_available": {
+        "innovation": ["The Knowledge Worm"]
+      },
+      "quarries": ["lion_god"],
+      "name": "Lion God",
+      "flair": {
+        "color": "#E8cE55",
+        "bgcolor": "#712C2B"
+      }
+    },
+    "gorm": {
+      "timeline_add": [{
+        "handle": "gorm_approaching_storm",
+        "type": "story_event",
+        "ly": 1
+      }, {
+        "type": "settlement_event",
+        "name": "Gorm Climate",
+        "ly": 2
+      }],
+      "always_available": {
+        "location": ["Gormery", "Gormchymist"],
+        "innovation": ["Nigredo"]
+      },
+      "quarries": ["gorm"],
+      "name": "Gorm",
+      "flair": {
+        "color": "#EAE40A",
+        "bgcolor": "#958C83"
+      }
+    },
+    "dragon_king": {
+      "timeline_add": [{
+        "handle": "dk_glowing_crater",
+        "excluded_campaign": "people_of_the_stars",
+        "type": "story_event",
+        "ly": 8
+      }],
+      "always_available": {
+        "location": ["Dragon Armory"]
+      },
+      "quarries": ["dragon_king"],
+      "name": "Dragon King",
+      "flair": {
+        "color": "#E8cE55",
+        "bgcolor": "#6260A9"
+      }
+    },
+    "lion_knight": {
+      "quarries": ["lion_knight"],
+      "name": "Lion Knight",
+      "special_showdowns": ["lion_knight"],
+      "always_available": {
+        "innovation": ["Stoic Statue"]
+      },
+      "timeline_add": [{
+        "handle": "lk_uninvited_guest",
+        "type": "story_event",
+        "ly": 6
+      }, {
+        "handle": "lk_places_everyone",
+        "type": "story_event",
+        "ly": 8
+      }, {
+        "type": "special_showdown",
+        "name": "Special Showdown - Lion Knight Lvl 1",
+        "ly": 8
+      }, {
+        "handle": "lk_places_everyone",
+        "type": "story_event",
+        "ly": 12
+      }, {
+        "type": "special_showdown",
+        "name": "Special Showdown - Lion Knight Lvl 2",
+        "ly": 12
+      }, {
+        "handle": "lk_places_everyone",
+        "type": "story_event",
+        "ly": 16
+      }, {
+        "type": "special_showdown",
+        "name": "Special Showdown - Lion Knight Lvl 3",
+        "ly": 16
+      }],
+      "flair": {
+        "color": "#666",
+        "bgcolor": "#FCF78F"
+      }
+    },
+    "sunstalker": {
+      "quarries": ["sunstalker"],
+      "name": "Sunstalker",
+      "always_available": {
+        "location": ["Skyreef Sanctuary"],
+        "innovation": ["Umbilical Bank"]
+      },
+      "survivor_attribs": ["Purified", "Sun Eater", "Child of the Sun"],
+      "timeline_add": [{
+        "handle": "ss_promise_under_the_sun",
+        "excluded_campaign": "people_of_the_sun",
+        "type": "story_event",
+        "ly": 8
+      }],
+      "flair": {
+        "color": "#000",
+        "bgcolor": "#ECD77E"
+      }
+    },
+    "green_knight_armor": {
+      "subtitle": "Crafting GKA items requires DBK, Flower Knight, Lion Knight and Gorm expansions!",
+      "name": "Green Knight Armor",
+      "always_available": {}
+    },
+    "flower_knight": {
+      "timeline_add": [{
+        "handle": "fk_crones_tale",
+        "excluded_campaign": "the_bloom_people",
+        "type": "story_event",
+        "ly": 5
+      }],
+      "quarries": ["flower_knight"],
+      "name": "Flower Knight",
+      "flair": {
+        "color": "#EAE40A",
+        "bgcolor": "#4E7D49"
+      }
+    },
+    "lonely_tree": {
+      "name": "Lonely Tree",
+      "special_showdowns": ["lonely_tree"]
     }
   },
   "events": {
