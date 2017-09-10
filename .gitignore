@@ -4,6 +4,13 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+# Ignore idea
+/.idea/.*
+
+# Ignore yard docs
+/.yardoc/
+/doc/
+
 # Ignore bundler config.
 /.bundle
 
@@ -16,5 +23,6 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+!.keep
 
 .byebug_history

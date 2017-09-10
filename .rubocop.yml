@@ -1,0 +1,26 @@
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+    - 'spec/fixtures/**/*'
+    - 'tmp/**/*'
+  TargetRubyVersion: 2.3
+
+Layout/EndOfLine:
+  EnforcedStyle: lf
+
+Layout/IndentHeredoc:
+  EnforcedStyle: powerpack
+
+# Configuration parameters: AllowHeredoc, AllowURI, URISchemes, IgnoreCopDirectives, IgnoredPatterns.
+# URISchemes: http, https
+Metrics/LineLength:
+  Max: 120
+
+Metrics/BlockLength:
+  Exclude:
+    - 'db/schema.rb'
+    - 'spec/**/*'
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
