@@ -13,15 +13,18 @@
 ActiveRecord::Schema.define(version: 20_170_910_185_437) do
   create_table 'expansions', force: :cascade do |t|
     t.string 'name'
+    t.string 'safe_name'
     t.date 'released'
     t.string 'color'
     t.string 'bg_color'
     t.datetime 'created_at', null: false
     t.datetime 'updated_at', null: false
+    t.index ['safe_name'], name: 'index_expansions_on_safe_name'
   end
 
   create_table 'monsters', force: :cascade do |t|
     t.string 'name'
+    t.string 'safe_name'
     t.boolean 'is_quarry'
     t.boolean 'is_nemesis'
     t.boolean 'is_unique'
@@ -29,5 +32,6 @@ ActiveRecord::Schema.define(version: 20_170_910_185_437) do
     t.datetime 'created_at', null: false
     t.datetime 'updated_at', null: false
     t.index ['expansion_id'], name: 'index_monsters_on_expansion_id'
+    t.index ['safe_name'], name: 'index_monsters_on_safe_name'
   end
 end
