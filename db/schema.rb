@@ -10,6 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20_170_910_185_437) do
+  create_table 'expansions', force: :cascade do |t|
+    t.string 'name'
+    t.date 'released'
+    t.string 'color'
+    t.string 'bg_color'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+  end
 
+  create_table 'monsters', force: :cascade do |t|
+    t.string 'name'
+    t.boolean 'is_quarry'
+    t.boolean 'is_nemesis'
+    t.boolean 'is_unique'
+    t.integer 'expansion_id'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['expansion_id'], name: 'index_monsters_on_expansion_id'
+  end
 end
