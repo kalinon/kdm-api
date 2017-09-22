@@ -1,5 +1,5 @@
 class Expansion < ApplicationRecord
-  after_initialize :init
+  after_save :safe_name
 
   has_many :monsters
 
@@ -10,7 +10,7 @@ class Expansion < ApplicationRecord
   validates_presence_of :name, :safe_name
   validates_uniqueness_of :name, :safe_name
 
-  def init
-    self.safe_name ||= name.parameterize
+  def safe_name
+    self[:safe_name] ||= name.parameterize
   end
 end

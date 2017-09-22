@@ -6,6 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+def core_exp
+  @core_exp ||= Expansion.where(safe_name: 'core').take
+end
+
 # @param data [Hash]
 def create_expansions(data)
   Expansion.new(name: 'Core', released: DateTime.new(2015, 9)).save
@@ -35,8 +39,6 @@ end
 
 # @param data [Hash]
 def create_monsters(data)
-  core_exp = Expansion.where(safe_name: 'core').take
-
   # Quarries
   data[:quarries].each_value do |mon|
     Monster.new(
@@ -86,6 +88,17 @@ def create_monsters(data)
   end
 end
 
+# @param data [Hash]
+def create_cod(data)
+  data.each_value do |cod|
+    CauseOfDeath.create(
+      name: cod[:name],
+      context: cod[:context]&.to_sym || :unknown,
+      expansion: Expansion.where(safe_name: cod[:expansion]).take || core_exp
+    )
+  end
+end
+
 kdm_manager = JSON.parse(File.read(Rails.root.join('vendor', 'data', 'kdm_manager.json'))).deep_symbolize_keys
 # cards = JSON.parse(File.read(Rails.root.join('vendor', 'data', 'cards.json')))
 
@@ -93,3 +106,9 @@ puts "\n== Creating Expansions =="
 create_expansions(kdm_manager[:expansions])
 puts "\n== Creating Monsters =="
 create_monsters(kdm_manager[:monsters])
+puts "\n== Creating Causes of Death =="
+create_cod(kdm_manager[:survivor_sheet_options][:causes_of_death])
+# puts "\n== Creating Weapon Proficiency =="
+#
+# puts "\n== Creating Cards =="
+# create_cards
