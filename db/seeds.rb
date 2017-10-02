@@ -99,6 +99,32 @@ def create_cod(data)
   end
 end
 
+# @param data [Hash]
+def create_wep_prof(data)
+  data.each_value do |wep_prof|
+    WeaponProficiency.create(
+      name: wep_prof[:name],
+      expansion: Expansion.where(safe_name: wep_prof[:expansion]).take || core_exp
+    )
+  end
+
+  # FIXME: handle excluded campaigns
+end
+
+# @param data [Hash]
+def create_survival_actions(data)
+  data.each_value do |action|
+    SurvivalAction.create(
+      name: action[:name]
+    )
+  end
+end
+
+# @param data [Hash]
+# def create_cards(data)
+#
+# end
+
 kdm_manager = JSON.parse(File.read(Rails.root.join('vendor', 'data', 'kdm_manager.json'))).deep_symbolize_keys
 # cards = JSON.parse(File.read(Rails.root.join('vendor', 'data', 'cards.json')))
 
@@ -108,7 +134,10 @@ puts "\n== Creating Monsters =="
 create_monsters(kdm_manager[:monsters])
 puts "\n== Creating Causes of Death =="
 create_cod(kdm_manager[:survivor_sheet_options][:causes_of_death])
-# puts "\n== Creating Weapon Proficiency =="
-#
+puts "\n== Creating Weapon Proficiency =="
+create_wep_prof(kdm_manager[:survivor_sheet_options][:weapon_proficiency])
+puts "\n== Creating Survival Actions =="
+create_survival_actions(kdm_manager[:survival_actions])
+
 # puts "\n== Creating Cards =="
 # create_cards

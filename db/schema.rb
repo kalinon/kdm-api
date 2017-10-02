@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20_170_922_195_400) do
+ActiveRecord::Schema.define(version: 20_171_002_163_445) do
   create_table 'cause_of_deaths', force: :cascade do |t|
     t.string 'name'
     t.string 'safe_name'
@@ -44,5 +44,22 @@ ActiveRecord::Schema.define(version: 20_170_922_195_400) do
     t.datetime 'updated_at', null: false
     t.index ['expansion_id'], name: 'index_monsters_on_expansion_id'
     t.index ['safe_name'], name: 'index_monsters_on_safe_name'
+  end
+
+  create_table 'survival_actions', force: :cascade do |t|
+    t.string 'name'
+    t.string 'safe_name'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+  end
+
+  create_table 'weapon_proficiencies', force: :cascade do |t|
+    t.string 'name'
+    t.string 'safe_name'
+    t.integer 'expansion_id'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['expansion_id'], name: 'index_weapon_proficiencies_on_expansion_id'
+    t.index ['safe_name'], name: 'index_weapon_proficiencies_on_safe_name'
   end
 end
