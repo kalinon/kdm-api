@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20_171_002_163_445) do
+ActiveRecord::Schema.define(version: 20_171_002_165_555) do
   create_table 'cause_of_deaths', force: :cascade do |t|
     t.string 'name'
     t.string 'safe_name'
@@ -31,6 +31,18 @@ ActiveRecord::Schema.define(version: 20_171_002_163_445) do
     t.datetime 'created_at', null: false
     t.datetime 'updated_at', null: false
     t.index ['safe_name'], name: 'index_expansions_on_safe_name'
+  end
+
+  create_table 'locations', force: :cascade do |t|
+    t.string 'name'
+    t.string 'safe_name'
+    t.string 'color'
+    t.string 'font_color'
+    t.integer 'expansion_id'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['expansion_id'], name: 'index_locations_on_expansion_id'
+    t.index ['safe_name'], name: 'index_locations_on_safe_name'
   end
 
   create_table 'monsters', force: :cascade do |t|

@@ -121,6 +121,17 @@ def create_survival_actions(data)
 end
 
 # @param data [Hash]
+def create_locations(data)
+  data.each_value do |location|
+    Location.create(
+      name: location[:name],
+      color: location.key?(:color) ? "##{location[:color].downcase}" : '#333',
+      font_color: location.key?(:font_color) ? "##{location[:font_color].downcase}" : '#fff',
+      expansion: Expansion.where(safe_name: location[:expansion]).take || core_exp
+    )
+  end
+end
+
 # def create_cards(data)
 #
 # end
@@ -138,6 +149,8 @@ puts "\n== Creating Weapon Proficiency =="
 create_wep_prof(kdm_manager[:survivor_sheet_options][:weapon_proficiency])
 puts "\n== Creating Survival Actions =="
 create_survival_actions(kdm_manager[:survival_actions])
+puts "\n== Creating Locations =="
+create_locations(kdm_manager[:locations][:locations])
 
 # puts "\n== Creating Cards =="
 # create_cards
