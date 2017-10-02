@@ -10,41 +10,39 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170922195400) do
-
-  create_table "cause_of_deaths", force: :cascade do |t|
-    t.string "name"
-    t.string "safe_name"
-    t.integer "context", default: 0
-    t.integer "expansion_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["expansion_id"], name: "index_cause_of_deaths_on_expansion_id"
-    t.index ["safe_name"], name: "index_cause_of_deaths_on_safe_name"
+ActiveRecord::Schema.define(version: 20_170_922_195_400) do
+  create_table 'cause_of_deaths', force: :cascade do |t|
+    t.string 'name'
+    t.string 'safe_name'
+    t.integer 'context', default: 0
+    t.integer 'expansion_id'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['expansion_id'], name: 'index_cause_of_deaths_on_expansion_id'
+    t.index ['safe_name'], name: 'index_cause_of_deaths_on_safe_name'
   end
 
-  create_table "expansions", force: :cascade do |t|
-    t.string "name"
-    t.string "safe_name"
-    t.date "released"
-    t.string "color"
-    t.string "bg_color"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["safe_name"], name: "index_expansions_on_safe_name"
+  create_table 'expansions', force: :cascade do |t|
+    t.string 'name'
+    t.string 'safe_name'
+    t.date 'released'
+    t.string 'color'
+    t.string 'bg_color'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['safe_name'], name: 'index_expansions_on_safe_name'
   end
 
-  create_table "monsters", force: :cascade do |t|
-    t.string "name"
-    t.string "safe_name"
-    t.boolean "is_quarry"
-    t.boolean "is_nemesis"
-    t.boolean "is_unique"
-    t.integer "expansion_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["expansion_id"], name: "index_monsters_on_expansion_id"
-    t.index ["safe_name"], name: "index_monsters_on_safe_name"
+  create_table 'monsters', force: :cascade do |t|
+    t.string 'name'
+    t.string 'safe_name'
+    t.boolean 'is_quarry'
+    t.boolean 'is_nemesis'
+    t.boolean 'is_unique'
+    t.integer 'expansion_id'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['expansion_id'], name: 'index_monsters_on_expansion_id'
+    t.index ['safe_name'], name: 'index_monsters_on_safe_name'
   end
-
 end
