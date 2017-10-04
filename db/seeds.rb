@@ -132,6 +132,17 @@ def create_locations(data)
   end
 end
 
+# @param data [Hash]
+def create_resources(data)
+  data.each_value do |resource|
+    ResourceType.create(
+      name: resource[:name],
+      color: resource.key?(:color) ? "##{resource[:color].downcase}" : '#333',
+      expansion: Expansion.where(safe_name: resource[:expansion]).take || core_exp
+    )
+  end
+end
+
 # def create_cards(data)
 #
 # end
@@ -151,6 +162,8 @@ puts "\n== Creating Survival Actions =="
 create_survival_actions(kdm_manager[:survival_actions])
 puts "\n== Creating Locations =="
 create_locations(kdm_manager[:locations][:locations])
+puts "\n== Creating Resources =="
+create_resources(kdm_manager[:locations][:resources])
 
 # puts "\n== Creating Cards =="
 # create_cards
