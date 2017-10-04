@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20_171_002_191_636) do
+ActiveRecord::Schema.define(version: 20_171_004_180_858) do
   create_table 'cause_of_deaths', force: :cascade do |t|
     t.string 'name'
     t.string 'safe_name'
@@ -31,6 +31,18 @@ ActiveRecord::Schema.define(version: 20_171_002_191_636) do
     t.datetime 'created_at', null: false
     t.datetime 'updated_at', null: false
     t.index ['safe_name'], name: 'index_expansions_on_safe_name'
+  end
+
+  create_table 'gear_types', force: :cascade do |t|
+    t.string 'name'
+    t.string 'safe_name'
+    t.string 'color'
+    t.string 'font_color'
+    t.integer 'expansion_id'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['expansion_id'], name: 'index_gear_types_on_expansion_id'
+    t.index ['safe_name'], name: 'index_gear_types_on_safe_name'
   end
 
   create_table 'locations', force: :cascade do |t|

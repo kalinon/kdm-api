@@ -143,6 +143,17 @@ def create_resources(data)
   end
 end
 
+def create_gear_types(data)
+  data.each_value do |gear|
+    GearType.create(
+      name: gear[:name],
+      color: gear.key?(:color) ? "##{gear[:color].downcase}" : '#333',
+      font_color: gear.key?(:font_color) ? "##{gear[:font_color].downcase}" : '#fff',
+      expansion: Expansion.where(safe_name: gear[:expansion]).take || core_exp
+    )
+  end
+end
+
 # def create_cards(data)
 #
 # end
@@ -162,8 +173,10 @@ puts "\n== Creating Survival Actions =="
 create_survival_actions(kdm_manager[:survival_actions])
 puts "\n== Creating Locations =="
 create_locations(kdm_manager[:locations][:locations])
-puts "\n== Creating Resources =="
+puts "\n== Creating Resource Types =="
 create_resources(kdm_manager[:locations][:resources])
+puts "\n== Creating Gear Types =="
+create_gear_types(kdm_manager[:locations][:gear])
 
 # puts "\n== Creating Cards =="
 # create_cards
