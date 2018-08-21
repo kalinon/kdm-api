@@ -45,10 +45,10 @@ gem 'mysql2', '>= 0.3.18'
 group :development, :test do
   gem 'database_cleaner'
   gem 'dotenv-rails'
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
   gem 'faker'
   gem 'jsonapi-resources-matchers'
   gem 'rspec-rails', '~> 3.6'
-  gem 'rubocop'
+  gem 'rubocop-rspec'
   gem 'yard'
 end
