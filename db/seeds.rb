@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 def core_exp
-  @core_exp ||= Expansion.where(safe_name: 'core').take
+  @core_exp ||= Expansion.where(safe_name: 'core').first
 end
 
 # @param data [Hash]
@@ -45,7 +45,7 @@ def create_monsters(data)
       is_quarry: true,
       is_nemesis: false,
       is_unique: false,
-      expansion: Expansion.where(safe_name: mon[:expansion]).take || core_exp
+      expansion: Expansion.where(safe_name: mon[:expansion]).first || core_exp
     ).save
   end
 
@@ -57,7 +57,7 @@ def create_monsters(data)
       is_quarry: false,
       is_nemesis: true,
       is_unique: false,
-      expansion: Expansion.where(safe_name: mon[:expansion]).take || core_exp
+      expansion: Expansion.where(safe_name: mon[:expansion]).first || core_exp
     ).save
   end
 
@@ -69,7 +69,7 @@ def create_monsters(data)
       is_quarry: true,
       is_nemesis: false,
       is_unique: true,
-      expansion: Expansion.where(safe_name: mon[:expansion]).take || core_exp
+      expansion: Expansion.where(safe_name: mon[:expansion]).first || core_exp
     ).save
   end
 
@@ -81,7 +81,7 @@ def create_monsters(data)
       is_quarry: false,
       is_nemesis: true,
       is_unique: true,
-      expansion: Expansion.where(safe_name: mon[:expansion]).take || core_exp
+      expansion: Expansion.where(safe_name: mon[:expansion]).first || core_exp
     ).save
   end
 end
@@ -102,7 +102,7 @@ def create_wep_prof(data)
   data.each_value do |wep_prof|
     WeaponProficiency.create(
       name: wep_prof[:name],
-      expansion: Expansion.where(safe_name: wep_prof[:expansion]).take || core_exp
+      expansion: Expansion.where(safe_name: wep_prof[:expansion]).first || core_exp
     )
   end
 
@@ -125,7 +125,7 @@ def create_locations(data)
       name: location[:name],
       color: location.key?(:color) ? "##{location[:color].downcase}" : '#333',
       font_color: location.key?(:font_color) ? "##{location[:font_color].downcase}" : '#fff',
-      expansion: location.key?(:expansion) ? Expansion.where(safe_name: location[:expansion]).take : core_exp
+      expansion: location.key?(:expansion) ? Expansion.where(safe_name: location[:expansion]).first : core_exp
     )
   end
 end
@@ -136,7 +136,7 @@ def create_resources(data)
     ResourceType.create(
       name: resource[:name],
       color: resource.key?(:color) ? "##{resource[:color].downcase}" : '#333',
-      expansion: Expansion.where(safe_name: resource[:expansion]).take || core_exp
+      expansion: Expansion.where(safe_name: resource[:expansion]).first || core_exp
     )
   end
 end
@@ -147,7 +147,7 @@ def create_gear_types(data)
       name: gear[:name],
       color: gear.key?(:color) ? "##{gear[:color].downcase}" : '#333',
       font_color: gear.key?(:font_color) ? "##{gear[:font_color].downcase}" : '#fff',
-      expansion: Expansion.where(safe_name: gear[:expansion]).take || core_exp
+      expansion: Expansion.where(safe_name: gear[:expansion]).first || core_exp
     )
   end
 end
