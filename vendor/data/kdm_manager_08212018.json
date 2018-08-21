@@ -4787,7 +4787,7 @@
       },
       "core_cyclops_fly": {
         "name": "Cyclops Fly",
-        "context": "consumption"
+        "context": "consume"
       },
       "core_died_of_shock": {
         "name": "Died of Shock",
@@ -6548,7 +6548,7 @@
         "name": "Vermin"
       }
     },
-    "location": {
+    "locations": {
       "plumery": {
         "color": "FF5EAA",
         "type": "gear",

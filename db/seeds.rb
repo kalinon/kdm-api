@@ -24,13 +24,11 @@ def create_expansions(data)
     }
 
     if exp[:flair]
-      expansion[:color] = exp[:flair][:color]
-      expansion[:bg_color] = exp[:flair][:bgcolor]
+      expansion[:color] = '#' + exp[:flair][:color].downcase
+      expansion[:bg_color] = '#' + exp[:flair][:bgcolor].downcase
     end
 
-    if exp[:released] && exp[:released] =~ /\d+/
-      expansion[:released] = DateTime.strptime(exp[:released], '%s')
-    end
+    expansion[:released] = DateTime.strptime(exp[:released], '%s') if exp[:released] && exp[:released] =~ /\d+/
     # puts expansion
 
     Expansion.new(expansion).save
@@ -94,7 +92,7 @@ def create_cod(data)
     CauseOfDeath.create(
       name: cod[:name],
       context: cod[:context]&.to_sym || :unknown,
-      expansion: Expansion.where(safe_name: cod[:expansion]).take || core_exp
+      expansion: cod.key?(:expansion) ? Expansion.where(safe_name: cod[:expansion]).take : core_exp
     )
   end
 end
@@ -127,7 +125,7 @@ def create_locations(data)
       name: location[:name],
       color: location.key?(:color) ? "##{location[:color].downcase}" : '#333',
       font_color: location.key?(:font_color) ? "##{location[:font_color].downcase}" : '#fff',
-      expansion: Expansion.where(safe_name: location[:expansion]).take || core_exp
+      expansion: location.key?(:expansion) ? Expansion.where(safe_name: location[:expansion]).take : core_exp
     )
   end
 end
@@ -154,15 +152,13 @@ def create_gear_types(data)
   end
 end
 
-# def create_cards(data)
-#
-# end
-
-kdm_manager = JSON.parse(File.read(Rails.root.join('vendor', 'data', 'kdm_manager.json'))).deep_symbolize_keys
+kdm_manager = JSON.parse(File.read(Rails.root.join('vendor', 'data', 'kdm_manager_08212018.json'))).deep_symbolize_keys
 # cards = JSON.parse(File.read(Rails.root.join('vendor', 'data', 'cards.json')))
 
 puts "\n== Creating Expansions =="
-create_expansions(kdm_manager[:expansions])
+kdm_manager[:expansions].each_value do |exp|
+  create_expansions(exp)
+end
 puts "\n== Creating Monsters =="
 create_monsters(kdm_manager[:monsters])
 puts "\n== Creating Causes of Death =="
@@ -177,6 +173,3 @@ puts "\n== Creating Resource Types =="
 create_resources(kdm_manager[:locations][:resources])
 puts "\n== Creating Gear Types =="
 create_gear_types(kdm_manager[:locations][:gear])
-
-# puts "\n== Creating Cards =="
-# create_cards
