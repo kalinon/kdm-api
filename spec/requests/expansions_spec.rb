@@ -1,4 +1,4 @@
-require 'rails_helper'
+require 'swagger_helper'
 
 RSpec.describe 'Expansions', type: :request do
   describe 'GET /expansions' do

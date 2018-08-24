@@ -1,4 +1,4 @@
-require 'rails_helper'
+require 'swagger_helper'
 
 RSpec.describe 'CauseOfDeaths', type: :request do
   describe 'GET /cause_of_deaths' do

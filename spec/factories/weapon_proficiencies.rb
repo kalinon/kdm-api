@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :weapon_proficiency do
-    name { 'MyString' }
-    safe_name { 'MyString' }
+    name { 'Dagger' }
+    safe_name { 'dagger' }
   end
 end

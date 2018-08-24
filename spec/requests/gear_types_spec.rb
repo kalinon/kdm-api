@@ -1,4 +1,4 @@
-require 'rails_helper'
+require 'swagger_helper'
 
 RSpec.describe 'GearTypes', type: :request do
   describe 'GET /gear_types' do

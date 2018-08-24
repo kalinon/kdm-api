@@ -1,4 +1,4 @@
-require 'rails_helper'
+require 'swagger_helper'
 
 RSpec.describe 'SurvivalActions', type: :request do
   describe 'GET /survival_actions' do

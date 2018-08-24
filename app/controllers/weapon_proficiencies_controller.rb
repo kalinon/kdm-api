@@ -47,6 +47,6 @@ class WeaponProficienciesController < ApplicationController
 
   # Only allow a trusted parameter "white list" through.
   def weapon_proficiency_params
-    params.fetch(:weapon_proficiency, {})
+    params.fetch(:weapon_proficiency, {}).permit(:name, :expansion_id)
   end
 end

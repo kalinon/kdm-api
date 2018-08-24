@@ -1,4 +1,4 @@
-require 'rails_helper'
+require 'swagger_helper'
 
 RSpec.describe 'Monsters', type: :request do
   describe 'GET /monsters' do
