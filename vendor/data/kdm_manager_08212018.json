@@ -187,7 +187,7 @@
           "Movement": 6
         },
         "name": "Candy & Cola",
-        "expansion": "beta_challenge_scenarios"
+        "expansion": "beta-challenge-scenarios"
       },
       "messenger_of_the_first_story": {
         "attribs": {
@@ -204,7 +204,7 @@
           "sex": "F"
         },
         "name": "Messenger of the First Story",
-        "expansion": "beta_challenge_scenarios"
+        "expansion": "beta-challenge-scenarios"
       },
       "adam": {
         "attribs": {
@@ -226,7 +226,7 @@
           ]
         },
         "name": "Adam",
-        "expansion": "beta_challenge_scenarios"
+        "expansion": "beta-challenge-scenarios"
       },
       "kara_black": {
         "attribs": {
@@ -240,7 +240,7 @@
           "sex": "F"
         },
         "name": "Kara Black",
-        "expansion": "beta_challenge_scenarios"
+        "expansion": "beta-challenge-scenarios"
       },
       "paul_the_survivor": {
         "attribs": {
@@ -262,7 +262,7 @@
         },
         "storage": [],
         "name": "Paul the Survivor",
-        "expansion": "beta_challenge_scenarios"
+        "expansion": "beta-challenge-scenarios"
       },
       "messenger_of_humanity": {
         "attribs": {
@@ -284,7 +284,7 @@
           ]
         },
         "name": "Messenger of Humanity",
-        "expansion": "beta_challenge_scenarios"
+        "expansion": "beta-challenge-scenarios"
       },
       "messenger_of_courage": {
         "attribs": {
@@ -314,7 +314,7 @@
           "Weapon Proficiency": 5
         },
         "name": "Messenger of Courage",
-        "expansion": "beta_challenge_scenarios"
+        "expansion": "beta-challenge-scenarios"
       },
       "anna": {
         "attribs": {
@@ -336,7 +336,7 @@
           ]
         },
         "name": "Anna",
-        "expansion": "beta_challenge_scenarios"
+        "expansion": "beta-challenge-scenarios"
       },
       "snow_the_savior": {
         "attribs": {
@@ -356,7 +356,7 @@
           "sex": "F"
         },
         "name": "Snow the Savior",
-        "expansion": "beta_challenge_scenarios"
+        "expansion": "beta-challenge-scenarios"
       }
     },
     "defaults": {
@@ -385,7 +385,7 @@
           "vertical": "Rust"
         },
         "name": "Unbreakable",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "Once per lantern year, you may ignore one of your severe injury roll results. If you do, gain a random disorder."
       },
       "timeless_eye": {
@@ -409,7 +409,7 @@
       },
       "headliner": {
         "name": "Headliner",
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "desc": "When you become <b>doomed</b> or gain the <b>priority target</b> token, you may choose to gain +1 survival or +1 strength token."
       },
       "berserker": {
@@ -427,17 +427,17 @@
       },
       "acrobatics": {
         "name": "Acrobatics",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "When you are adjacent to the monster, you may spend <font class=\"kdm_font\">c</font> to place your survivor on any other space adjacent to the monster."
       },
       "otherworldly_luck": {
         "name": "Otherworldly Luck",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "desc": "During the Hunt and Settlement phase, whenever you roll on a table, you may add +1 to the roll result. This may not exceed the highest possible result of that table.<br/>(This includes Hunt Events, Story Events, Endeavors, Settlement Events, etc.)"
       },
       "tenacious": {
         "name": "Tenacious",
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "desc": "When your wound attempt on a hit location is a failure, you may put that hit location back on top of the deck instead of in the discard pile.<br/>Limit, once per round."
       },
       "double_dash": {
@@ -484,7 +484,7 @@
       },
       "propulsion_drive": {
         "name": "Propulsion Drive",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "desc": "At the start of a showdown, gain the <b>Momentum</b> survivor status card.<br/> When you attack, if you have 5+ momentum tokens, remove them all and roll 1d10. Gain that amount of luck and strength when attempting to wound the first selected hit location for this attack."
       },
       "trick_attack": {
@@ -499,7 +499,7 @@
       },
       "unrelenting": {
         "name": "Unrelenting",
-        "expansion": "lion_god",
+        "expansion": "lion-god",
         "desc": "If all of your attack rolls in an attack miss, you may spend 1 survival to re-roll all attack rolls."
       },
       "tumble": {
@@ -512,12 +512,12 @@
       },
       "carapace_of_will": {
         "name": "Carapace of Will",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "desc": "At the start of the showdown, gain the <b>Steadfast</b> survivor status card.<br/> When you are attacked, if you have 2+ steadfast tokens, ignore a hit and remove all your steadfast tokens."
       },
       "ruthless": {
         "name": "Ruthless",
-        "expansion": "lion_god",
+        "expansion": "lion-god",
         "desc": "Whenever a survivor dies during the showdown, roll 1d10. On a 7+, gain a <b>Skull</b> basic resource."
       },
       "mighty_strike": {
@@ -526,12 +526,12 @@
       },
       "burning_focus": {
         "name": "Burning Focus",
-        "expansion": "lion_god",
+        "expansion": "lion-god",
         "desc": "If you have 0 survival at the start of your act, gain 1 survival."
       },
       "wardrobe_expert": {
         "name": "Wardrobe Expert",
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "desc": "When you suffer a severe injury at a hit location, you may archive a gear worn at that location to ignore it and gain +1 survival."
       },
       "leader": {
@@ -570,7 +570,7 @@
       },
       "heroic": {
         "name": "Heroic",
-        "expansion": "lion_god",
+        "expansion": "lion-god",
         "desc": "Once per showdown, if you are standing adjacent to the monster and have 3+ survival, you may spend all of your survival for one automatic hit that inflicts a critical wound."
       },
       "fated_blow": {
@@ -579,7 +579,7 @@
           "vertical": "Storm"
         },
         "name": "Fated Blow",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "Once per showdown, you may give your next wound attempt +2 strength and <b>Devastating 1</b>."
       },
       "monster_claw_style": {
@@ -612,14 +612,14 @@
           "vertical": "Reaper"
         },
         "name": "Champion's Rite",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "Before making an attack, you may add your understanding to your accuracy attribute for that attack.<br/>Limit, once per showdown."
       }
     },
     "secret_fighting_art": {
       "courtly_screenwriter": {
         "name": "Courtly Screenwriter",
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "desc": "At the start of the showdown, secretly write down on a scrap of paper which survivors will live and who will deal the killing blow. During the aftermath, if your predictions were correct, raise the settlement's Survival Limit by 1."
       },
       "frozen_star": {
@@ -628,7 +628,7 @@
           "vertical": "Rust"
         },
         "name": "Frozen Star",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "Once per round, you may spend 1 survival to freeze a monster's brain. They gain -2 accuracy until the end of the round.<br/>Once per round, you may spend 1 survival to freeze a survivor's brain, killing them instantly. They die."
       },
       "red_fist": {
@@ -655,7 +655,7 @@
       },
       "true_blade": {
         "name": "True Blade",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "desc": "All swords in your gear grid gain <b>deadly</b>.<br/>Gain +3 luck when attacking with a sword if you have the <b>Ghostly Beauty</b> and <b>Narcissistic</b> disorders."
       },
       "king_of_a_thousand_battles": {
@@ -664,12 +664,12 @@
       },
       "ageless_apprentice": {
         "name": "Ageless Apprentice",
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "desc": "When yu gain Hunt XP, you may decide not to gain it.<br/>When you <b>depart</b>, you may rotate up to 3 gear cards in your gear grid. This changes the location of their affinities and arrows. Otherwise, the gear functions normally."
       },
       "fencing": {
         "name": "Fencing",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "desc": "Ignore <b>Parry</b> when attempting to wound hit locations. (Attempt to wound these locations normally.)<br/>When a monster attacks you, roll 1d10. On a 6+, ignore 1 hit. Limit, once per round."
       },
       "sun_eater": {
@@ -696,12 +696,12 @@
       "necromancer": {
         "epithet": "necromancer",
         "name": "Necromancer",
-        "expansion": "lion_god",
+        "expansion": "lion-god",
         "desc": "When you <b>depart</b>, gain <font class=\"inline_shield\">1</font> to all hit locations for each gear card in your grid with the <i>symbol</i> keyword.<br/>If you would roll on the severe injury table, roll on the <b>Worm Trauma</b> table on the other side of this card instead.<br/>When you die or forget this, the settlement gains the <b>Knowledge Worm</b> innovation."
       },
       "beetle_strength": {
         "name": "Beetle Strength",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "desc": "Once per showdown, you may spend <font class=\"kdm_font\">a</font> to shove an adjacent obstacle terrain. If you do, move the train directly away from you in a straight line until it encounters a board edge or another obstacle terrain. Any monsters the train passes over suffer a wound, and any survivors it <b>collides</b> with suffer <b>knockback 7</b>.<br/>The display of strength is so exhausting it ages you. You are knocked down and gain +1 Hunt XP."
       },
       "grace_of_dormenatus": {
@@ -760,7 +760,7 @@
       },
       "acanthus_doctor": {
         "name": "Acanthus Doctor",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "desc": "You may wear up to 3 <b>Satchel</b> gear cards.<br/>When you <b>depart</b>, if you are not wearing any armor, for each <font id=\"Dormenatus\">&#x02588;</font> you have, gain +1 strength token and add <font class=\"inline_shield\">1</font> to all hit locations.<br/>Spend <font class=\"kdm_font\">a</font> and a Flower or <b>Fresh Acanthus</b> resource to heal a permanent injury you or an adjacent survivor suffered this showdown."
       },
       "suppressed_shadow": {
@@ -770,7 +770,7 @@
       },
       "altered_destiny": {
         "name": "Altered Destiny",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "If you would gain a negative attribute token, gain a positive attribute token of that type instead."
       },
       "immovable_object": {
@@ -3512,92 +3512,92 @@
       "rainbow_wing_belt": {
         "type": "wet_resin_crafter",
         "name": "Rainbow Wing Belt",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "rolling_armor_set": {
         "type": "wet_resin_crafter",
         "name": "Rolling Armor Set",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "digging_claw": {
         "type": "wet_resin_crafter",
         "name": "Digging Claw",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "seasoned_monster_meat": {
         "type": "wet_resin_crafter",
         "name": "Seasoned Monster Meat",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "century_shoulder_pads": {
         "type": "wet_resin_crafter",
         "name": "Century Shoulder Pads",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "the_beetle_bomb": {
         "type": "wet_resin_crafter",
         "name": "The Beetle Bomb",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "calcified_zanbato": {
         "type": "black_harvest",
         "name": "Calcified Zanbato",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "dbk_errant_badge": {
         "type": "wet_resin_crafter",
         "name": "DBK Errant Badge",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "calcified_juggernaut_blade": {
         "type": "rare_gear",
         "name": "Calcified Juggernaut Blade",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "calcified_digging_claw": {
         "type": "black_harvest",
         "name": "Calcified Digging Claw",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "hidden_crimson_jewel": {
         "type": "rare_gear",
         "name": "Hidden Crimson Jewel",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "century_greaves": {
         "type": "wet_resin_crafter",
         "name": "Century Greaves",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "scarab_circlet": {
         "type": "wet_resin_crafter",
         "name": "Scarab Circlet",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "calcified_shoulder_pads": {
         "type": "black_harvest",
         "name": "Calcified Shoulder Pads",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "calcified_greaves": {
         "type": "black_harvest",
         "name": "Calcified Greaves",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "rubber_bone_harness": {
         "type": "wet_resin_crafter",
         "name": "Rubber Bone Harness",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "regenerating_blade": {
         "type": "rare_gear",
         "name": "Regenerating Blade",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "trash_crown": {
         "type": "rare_gear",
         "name": "Trash Crown",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       }
     },
     "spidicules": {
@@ -4225,7 +4225,7 @@
         "rules": [
           "Block 2"
         ],
-        "expansion": "green_knight_armor",
+        "expansion": "green-knight-armor",
         "keywords": [
           "weapon",
           "set",
@@ -4296,7 +4296,7 @@
             ]
           }
         ],
-        "expansion": "green_knight_armor",
+        "expansion": "green-knight-armor",
         "location": "arms"
       },
       "griswaldo": {
@@ -4305,7 +4305,7 @@
           "Deadly",
           "Savage"
         ],
-        "expansion": "green_knight_armor",
+        "expansion": "green-knight-armor",
         "keywords": [
           "weapon",
           "set",
@@ -4383,7 +4383,7 @@
             ]
           }
         ],
-        "expansion": "green_knight_armor",
+        "expansion": "green-knight-armor",
         "location": "legs"
       },
       "green_plate": {
@@ -4427,7 +4427,7 @@
             ]
           }
         ],
-        "expansion": "green_knight_armor",
+        "expansion": "green-knight-armor",
         "location": "body"
       },
       "green_helm": {
@@ -4457,7 +4457,7 @@
             }
           }
         ],
-        "expansion": "green_knight_armor",
+        "expansion": "green-knight-armor",
         "location": "head"
       },
       "green_faulds": {
@@ -4497,7 +4497,7 @@
             ]
           }
         ],
-        "expansion": "green_knight_armor",
+        "expansion": "green-knight-armor",
         "location": "waist"
       }
     },
@@ -4505,12 +4505,12 @@
       "lantern_mehndi": {
         "type": "rare_gear",
         "name": "Lantern Mehndi",
-        "expansion": "lion_god"
+        "expansion": "lion-god"
       },
       "bone_witch_mehndi": {
         "type": "rare_gear",
         "name": "Bone Witch Mehndi",
-        "expansion": "lion_god"
+        "expansion": "lion-god"
       },
       "ancient_lion_claws": {
         "armor": 2,
@@ -4531,20 +4531,20 @@
         },
         "desc": "+2 strength while attacking with daggers or katars. You may move up to 2 additional spaces when you <b>pounce</b>.",
         "type": "rare_gear",
-        "expansion": "lion_god",
+        "expansion": "lion-god",
         "location": "arms"
       },
       "butchers_blood": {
         "type": "rare_gear",
         "name": "Butcher's Blood",
-        "expansion": "lion_god"
+        "expansion": "lion-god"
       },
       "death_mehndi": {
         "name": "Death Mehndi",
         "rules": [
           "Cursed"
         ],
-        "expansion": "lion_god",
+        "expansion": "lion-god",
         "add_affinity": [
           "blue",
           "green",
@@ -4562,22 +4562,22 @@
       "necromancers_eye": {
         "type": "rare_gear",
         "name": "Necromancer's Eye",
-        "expansion": "lion_god"
+        "expansion": "lion-god"
       },
       "glyph_of_solitude": {
         "type": "rare_gear",
         "name": "Glyph of Solitude",
-        "expansion": "lion_god"
+        "expansion": "lion-god"
       },
       "lion_god_statue": {
         "type": "rare_gear",
         "name": "Lion God Statue",
-        "expansion": "lion_god"
+        "expansion": "lion-god"
       },
       "golden_plate": {
         "type": "rare_gear",
         "name": "Golden Plate",
-        "expansion": "lion_god"
+        "expansion": "lion-god"
       }
     },
     "manhunter": {
@@ -4810,18 +4810,18 @@
         },
         "desc": "If all of your attack rolls hit, gain <b>Savage</b> and <b>Deadly</b> until the end of your attack.",
         "type": "dragon_armory",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "accuracy": 6
       },
       "dragon_boots": {
         "type": "dragon_armory",
         "name": "Dragon Boots",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "dragon_bite_bolt": {
         "type": "dragon_armory",
         "name": "Dragon Bite Bolt",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "blast_shield": {
         "rules": [
@@ -4838,13 +4838,13 @@
         "speed": 1,
         "desc": "Add <font class=\"inline_shield\">1</font> to all hit locations.<br/><b>Block 1</b>. The first time you block a hit each showdown, gain the priority target token.",
         "type": "dragon_armory",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "accuracy": 7
       },
       "dragonskull_helm": {
         "type": "dragon_armory",
         "name": "Dragonskull Helm",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "regal_edge": {
         "rules": [
@@ -4865,23 +4865,23 @@
         },
         "desc": "Gain +1 speed and +4 strength when attacking with this weapon if you have a <b>Constellation</b>.",
         "type": "rare_gear",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "accuracy": 5
       },
       "dragon_belt": {
         "type": "dragon_armory",
         "name": "Dragon Belt",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "dragon_gloves": {
         "type": "dragon_armory",
         "name": "Dragon Gloves",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "nuclear_scythe": {
         "type": "dragon_armory",
         "name": "Nuclear Scythe",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "blast_sword": {
         "rules": [
@@ -4901,13 +4901,13 @@
         },
         "desc": "When you spend <font class=\"kdm_font\">a</font> to block with this weapon, gain +1 survival.",
         "type": "dragon_armory",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "accuracy": 6
       },
       "dragon_mantle": {
         "type": "dragon_armory",
         "name": "Dragon Mantle",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "red_power_core": {
         "keywords": [
@@ -4916,7 +4916,7 @@
         ],
         "type": "dragon_armory",
         "name": "Red Power Core",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "All nuclear gear cards in your gear grid gain <b>Sharp</b>."
       },
       "blue_power_core": {
@@ -4926,13 +4926,13 @@
         ],
         "type": "dragon_armory",
         "name": "Blue Power Core",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "All nuclear gear cards in your gear grid gain <b>Deadly 2</b>."
       },
       "dragon_chakram": {
         "type": "dragon_armory",
         "name": "Dragon Chakram",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "celestial_spear": {
         "rules": [
@@ -4952,13 +4952,13 @@
         },
         "desc": "Gain +5 strength when attacking with this weapon if you have a <b>constellation</b>.",
         "type": "rare_gear",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "accuracy": 5
       },
       "nuclear_knife": {
         "type": "dragon_armory",
         "name": "Nuclear Knife",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "shielded_quiver": {
         "keywords": [
@@ -4967,13 +4967,13 @@
         ],
         "type": "dragon_armory",
         "name": "Shielded Quiver",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "You may activate and gain the benefits of each arrow gear in your grid one additional time each showdown."
       },
       "dragon_armor_set": {
         "type": "dragon_armory",
         "name": "Dragon Armor Set",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "Add <font class=\"inline_shield\">1</font> to all hit locations.<br/><b>Charge:</b> Spend <font class=\"kdm_font\">c a</font>. You leap into the air! Place your survivor on an unoccupied space exactly five spaces away in a straight line, then activate a melee weapon and attack with +2 accuracy and +5 strength."
       },
       "husk_of_destiny": {
@@ -4981,7 +4981,7 @@
         "rules": [
           "Cursed"
         ],
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "keywords": [
           "item",
           "other"
@@ -4992,7 +4992,7 @@
       "hazmat_shield": {
         "type": "rare_gear",
         "name": "Hazmat Shield",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "dragon_vestments": {
         "keywords": [
@@ -5002,7 +5002,7 @@
         ],
         "type": "rare_gear",
         "name": "Dragon Vestments",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "Add <font class=\"inline_shield\">1</font> to all hit locations.<br/>When you gain a random fighting art, select a Dragon Trait one instead."
       }
     },
@@ -5010,33 +5010,33 @@
       "lion_knight_badge": {
         "type": "rare_gear",
         "name": "Lion Knight Badge",
-        "expansion": "lion_knight"
+        "expansion": "lion-knight"
       },
       "lion_knights_left_claw": {
         "type": "rare_gear",
         "name": "Lion Knight's Left Claw",
-        "expansion": "lion_knight"
+        "expansion": "lion-knight"
       },
       "hideous_disguise": {
         "type": "rare_gear",
         "name": "Hideous Disguise",
-        "expansion": "lion_knight"
+        "expansion": "lion-knight"
       },
       "lion_knights_right_claw": {
         "type": "rare_gear",
         "name": "Lion Knight's Right claw",
-        "expansion": "lion_knight"
+        "expansion": "lion-knight"
       }
     },
     "white_box_promo": {
       "vagabond_armor_set": {
         "type": "gear_recipe",
         "name": "Vagabond Armor Set",
-        "expansion": "white_box"
+        "expansion": "white-box"
       },
       "bloodskin": {
         "name": "Bloodskin",
-        "expansion": "white_box",
+        "expansion": "white-box",
         "keywords": [
           "item",
           "consumable",
@@ -5054,7 +5054,7 @@
         "rules": [
           "+1 Evasion"
         ],
-        "expansion": "white_box",
+        "expansion": "white-box",
         "keywords": [
           "item",
           "lantern",
@@ -5085,7 +5085,7 @@
         },
         "desc": "<font class=\"kdm_font\">c</font> <font class=\"kdm_font\">a</font> and 1 survival: Make an attack using this weapon. This attack has <b>Range 3</b> and gains -2 Accuracy, +5 speed. Ignore <font class=\"kdm_font_10\">e</font> <b>WOUND</b> for this attack. Limit, once per showdown.",
         "type": "promo",
-        "expansion": "white_box",
+        "expansion": "white-box",
         "accuracy": 6
       },
       "newborn": {
@@ -5130,7 +5130,7 @@
         "armor": 1,
         "type": "gear_recipe",
         "location": "body",
-        "expansion": "white_box",
+        "expansion": "white-box",
         "desc": "When you are encouraged, gain +1 insanity if your settlement is <b>Barbaric</b> or gain +1 survival if your settlement is <b>Romantic</b>."
       },
       "belt_of_gender_swap": {
@@ -5138,7 +5138,7 @@
         "rules": [
           "Cursed"
         ],
-        "expansion": "white_box",
+        "expansion": "white-box",
         "keywords": [
           "item",
           "jewelry",
@@ -5154,7 +5154,7 @@
       "white_dragon_gauntlets": {
         "name": "White Dragon Gauntlets",
         "armor": 12,
-        "expansion": "white_box",
+        "expansion": "white-box",
         "keywords": [
           "armor",
           "set",
@@ -5197,7 +5197,7 @@
         "armor": 3,
         "type": "rare_gear",
         "location": "head",
-        "expansion": "white_box",
+        "expansion": "white-box",
         "desc": "Ignore sentient on all gear. You cannot depart with this if you have 3+ understanding."
       },
       "vibrant_lantern": {
@@ -5205,7 +5205,7 @@
         "rules": [
           "+1 Accuracy"
         ],
-        "expansion": "white_box",
+        "expansion": "white-box",
         "keywords": [
           "item",
           "lantern",
@@ -5242,7 +5242,7 @@
             ]
           }
         ],
-        "expansion": "white_box",
+        "expansion": "white-box",
         "location": "legs"
       },
       "hard_breastplate": {
@@ -5283,7 +5283,7 @@
             ]
           }
         ],
-        "expansion": "white_box",
+        "expansion": "white-box",
         "location": "body"
       },
       "blood_plasma_katana": {
@@ -5303,14 +5303,14 @@
         "speed": 9,
         "desc": "When you activate this, gain 1 bleeding token. X = your bleeding tokens minus 2.",
         "type": "promo",
-        "expansion": "white_box",
+        "expansion": "white-box",
         "accuracy": 6
       },
       "xmaxe": {
         "rules": [
           "Irreplaceable"
         ],
-        "expansion": "white_box",
+        "expansion": "white-box",
         "keywords": [
           "weapon",
           "melee",
@@ -5361,7 +5361,7 @@
         },
         "desc": "You must <b>investigate</b> if a choice to investigate arises. When you would roll to investigate, pick any result. If you are a returning survivor, you leave your hardboiled life behind and retired.",
         "type": "promo",
-        "expansion": "white_box",
+        "expansion": "white-box",
         "location": "head"
       },
       "prismatic_lantern": {
@@ -5371,7 +5371,7 @@
           "Unique",
           "Irreplaceable"
         ],
-        "expansion": "white_box",
+        "expansion": "white-box",
         "keywords": [
           "item",
           "lantern",
@@ -5408,7 +5408,7 @@
           "bottom": "red"
         },
         "type": "rare_gear",
-        "expansion": "white_box",
+        "expansion": "white-box",
         "accuracy": 6
       },
       "sword_of_silence": {
@@ -5443,7 +5443,7 @@
           "Irreplaceable",
           "Femable Only"
         ],
-        "expansion": "white_box",
+        "expansion": "white-box",
         "keywords": [
           "item",
           "noisy",
@@ -5472,7 +5472,7 @@
         "speed": "X",
         "desc": "When you activate this, gain 1 bleeding token. X = your bleeding tokens. Z = X + X + X + X + X",
         "type": "promo",
-        "expansion": "white_box",
+        "expansion": "white-box",
         "accuracy": "4"
       },
       "jack_o_lantern": {
@@ -5494,7 +5494,7 @@
             ]
           }
         ],
-        "expansion": "white_box",
+        "expansion": "white-box",
         "keywords": [
           "item",
           "consumable",
@@ -5518,7 +5518,7 @@
         "armor": 0,
         "type": "promo",
         "location": "waist",
-        "expansion": "white_box",
+        "expansion": "white-box",
         "desc": "Its fabric responds to you; stress causes INTENSE constriction. Do not suffer brain traumas (ignore this if you have destroyed genitals)."
       },
       "black_friday_lantern": {
@@ -5526,7 +5526,7 @@
         "rules": [
           "+1 Evasion"
         ],
-        "expansion": "white_box",
+        "expansion": "white-box",
         "keywords": [
           "item",
           "lantern",
@@ -5541,7 +5541,7 @@
           "Sentient",
           "Cursed"
         ],
-        "expansion": "white_box",
+        "expansion": "white-box",
         "keywords": [
           "item",
           "lantern",
@@ -5755,51 +5755,51 @@
         "expansion": "sunstalker"
       }
     },
-    "flower_knight": {
+    "flower-knight": {
       "sleeping_virus_flower": {
         "type": "rare_gear",
         "name": "Sleeping Virus Flower",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "vespertine_foil": {
         "type": "sense_memory",
         "name": "Vespertine Foil",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "vespertine_arrow": {
         "type": "sense_memory",
         "name": "Vespertine Arrow",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "replica_flower_sword": {
         "type": "rare_gear",
         "name": "Replica Flower Sword",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "flower_knight_helm": {
         "type": "rare_gear",
         "name": "Flower Knight Helm",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "vespertine_cello": {
         "type": "sense_memory",
         "name": "Vespertine Cello",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "flower_knight_badge": {
         "type": "sense_memory",
         "name": "Flower Knight Badge",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "satchel": {
         "type": "sense_memory",
         "name": "Satchel",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "vespertine_bow": {
         "type": "sense_memory",
         "name": "Vespertine Bow",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       }
     },
     "beta_challenge_scenarios": {
@@ -5814,7 +5814,7 @@
         ],
         "desc": "Takes the place of the Leather Mask and Leather Cuirass for completing the leather armor set.",
         "type": "rare_gear",
-        "expansion": "beta_challenge_scenarios",
+        "expansion": "beta-challenge-scenarios",
         "location": "head"
       },
       "stone_arm": {
@@ -5822,7 +5822,7 @@
         "rules": [
           "Block 1"
         ],
-        "expansion": "beta_challenge_scenarios",
+        "expansion": "beta-challenge-scenarios",
         "keywords": [
           "item",
           "stone",
@@ -5839,7 +5839,7 @@
         ],
         "type": "rare_gear",
         "name": "Petal Lantern",
-        "expansion": "beta_challenge_scenarios",
+        "expansion": "beta-challenge-scenarios",
         "desc": "After rolling on the severe injury table, you may spend any amount of survival to add that number to your roll result."
       },
       "fairy_bottle": {
@@ -5850,7 +5850,7 @@
         ],
         "type": "rare_gear",
         "name": "Fairy Bottle",
-        "expansion": "beta_challenge_scenarios",
+        "expansion": "beta-challenge-scenarios",
         "desc": "When you would die for any reason, instead restore all lost armor points and health levels, remove all bleeding tokens and archive this card."
       },
       "ayas_spear": {
@@ -5864,7 +5864,7 @@
         "speed": 2,
         "desc": "Pairs with Aya's spear.",
         "type": "rare_gear",
-        "expansion": "beta_challenge_scenarios",
+        "expansion": "beta-challenge-scenarios",
         "accuracy": 7
       },
       "giant_stone_face": {
@@ -5884,7 +5884,7 @@
         "speed": 1,
         "desc": "If your attack roll result is a 1, archive this card and place a Giant Stone Face terrain tile in any adjacent square.",
         "type": "rare_gear",
-        "expansion": "beta_challenge_scenarios",
+        "expansion": "beta-challenge-scenarios",
         "accuracy": 6
       },
       "cola_bottle_lantern": {
@@ -5895,7 +5895,7 @@
         ],
         "type": "rare_gear",
         "name": "Cola Bottle Lantern",
-        "expansion": "beta_challenge_scenarios",
+        "expansion": "beta-challenge-scenarios",
         "desc": "+1 Accuracy<br/><font class=\"kdm_font\">a</font>: All survivors gain +1 Accuracy until the end of the round. Use once per round."
       },
       "arm_of_the_first_tree": {
@@ -5909,7 +5909,7 @@
         "speed": 2,
         "desc": "On a <b>Perfect Hit</b>, the monster gains -1 toughness token until the end of the round. A monster can only suffer this once per round.",
         "type": "rare_gear",
-        "expansion": "beta_challenge_scenarios",
+        "expansion": "beta-challenge-scenarios",
         "accuracy": 6
       },
       "ayas_sword": {
@@ -5923,13 +5923,13 @@
         "speed": 2,
         "desc": "Pairs with Aya's spear.",
         "type": "rare_gear",
-        "expansion": "beta_challenge_scenarios",
+        "expansion": "beta-challenge-scenarios",
         "accuracy": 7
       },
       "piranha_helm": {
         "name": "Piranha Helm",
         "armor": 2,
-        "expansion": "beta_challenge_scenarios",
+        "expansion": "beta-challenge-scenarios",
         "location": "head",
         "keywords": [
           "armor",
@@ -6071,7 +6071,7 @@
       "shallow_lungs": {
         "survivor_effect": "When you <b>encourage</b>, you are knocked down.",
         "flavor_text": "Yelling makes you feel light-headed.",
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "name": "Shallow Lungs"
       },
       "absent_seizures": {
@@ -6083,13 +6083,13 @@
       "delicious": {
         "survivor_effect": "You are still considered a threat when you are knocked down (unless you use an effect that says otherwise).",
         "flavor_text": "Predators of all shapes and sizes find your scent irresistible.",
-        "expansion": "lion_god",
+        "expansion": "lion-god",
         "name": "Delicious"
       },
       "motion_sickness": {
         "survivor_effect": "Whenever you suffer <b>knockback</b>, gain 1 bleeding token.",
         "flavor_text": "Moving quickly makes you vomit.",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "name": "Motion Sickness"
       },
       "spiral_ganglia": {
@@ -6101,14 +6101,14 @@
       "narcissistic": {
         "survivor_effect": "You may not wear armor at the head location. If you are wearing armor at the head location when you gain this disorder, archive it.",
         "flavor_text": "There is nothing in the world more beautiful than yourself.",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "name": "Narcissistic"
       },
       "enfeebled": {
         "max_bleeding_tokens": 4,
         "survivor_effect": "It takes one less bleeding token to kill you.",
         "flavor_text": "You are delicate flower, wilting in the darkness.",
-        "expansion": "lion_god",
+        "expansion": "lion-god",
         "name": "Enfeebled"
       },
       "sun_drunk": {
@@ -6120,13 +6120,13 @@
       "arithmophilia": {
         "survivor_effect": "When you gain this disorder, roll 1d5. Your movement is that number.<br/>Ignore all other movement modifiers.",
         "flavor_text": "You love numbers. Your life must exist in perfect arithmetical harmony.",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "name": "Arithmophilia"
       },
       "unlucky": {
         "survivor_effect": "You cannot critically wound.",
         "flavor_text": "Your mother always said you were born under a bad sign.",
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "name": "Unlucky"
       },
       "emotionless": {
@@ -6144,12 +6144,12 @@
       "sworn_enemy": {
         "survivor_effect": "When you gain this, choose a monster. You may only depart to face the chosen monster. Your attacks against the chosen monster gain +1 speed and +1 strength.",
         "name": "Sworn Enemy",
-        "expansion": "beta_challenge_scenarios"
+        "expansion": "beta-challenge-scenarios"
       },
       "stark_raving": {
         "survivor_effect": "You are always <b>insane</b>, regardless of your insanity.",
         "flavor_text": "Freedom awaits those pushed this far beyond the breaking point.",
-        "expansion": "lion_god",
+        "expansion": "lion-god",
         "name": "Stark Raving"
       },
       "revenge": {
@@ -6161,13 +6161,13 @@
       "primma_donna": {
         "survivor_effect": "Each survivor turn, you must take your act first (roll off each turn if multiple survivors have this disorder).",
         "flavor_text": "The double-edged sword of fame is the only weapon you require.",
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "name": "Prima Donna"
       },
       "tunnel_vision": {
         "survivor_effect": "When you spend <font class=\"kdm_font\">a</font>, you may only activate weapons.",
         "flavor_text": "If you're not killing something, you're wasting your time.",
-        "expansion": "lion_god",
+        "expansion": "lion-god",
         "name": "Tunnel Vision"
       },
       "destined": {
@@ -6177,7 +6177,7 @@
           "vertical": "Rust"
         },
         "flavor_text": "You have a grand destiny that you must fulfill.",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "name": "Destined"
       },
       "overprotective": {
@@ -6189,25 +6189,25 @@
       "vermin_obsession": {
         "survivor_effect": "While there is a <b>Bug Spot</b> terrain tile on the showdown board, you are so overwhelmed that you are <b>doomed</b>.",
         "flavor_text": "You love insects.",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "name": "Vermin Obsession"
       },
       "flower_addiction": {
         "survivor_effect": "You may only <b>depart</b> to hunt the Flower Knight.<br/>After you <b>depart</b>, cure this disorder.",
         "flavor_text": "An insatiable hunger has bloomed in you, delicate and sickeningly sweet.",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "name": "Flower Addiction"
       },
       "superstitious": {
         "survivor_effect": "You cannot activate or <b>depart</b> with other gear in your gear grid.",
         "flavor_text": "Evil magic will be your undoing. You do not believe in abusing the other.",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "name": "Superstitious"
       },
       "performance_anxiety": {
         "survivor_effect": "You cannot be nominated for <b>Intimacy</b>.<br/>Cure this disorder if you have 8+ courage.",
         "flavor_text": "You're not ready to love.",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "name": "Performance Anxiety"
       },
       "controlophobia": {
@@ -6231,13 +6231,13 @@
       "ghostly_beauty": {
         "survivor_effect": "Double all insanity you gain.<br/>Double all survival you spend.",
         "flavor_text": "You cannot experience fear if you do not exist.",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "name": "Ghostly Beauty"
       },
       "stage_fright": {
         "survivor_effect": "Whenever you become <b>doomed</b> or gain the <b>priority target</b> token, lose 1 survival.",
         "flavor_text": "You hate being the center of attention.",
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "name": "Stage Fright"
       }
     }
@@ -6249,7 +6249,7 @@
         "context": "showdown"
       },
       "lonely_tree_00": {
-        "expansion": "lonely_tree",
+        "expansion": "lonely-tree",
         "name": "Lonely Fruit",
         "context": "story_event"
       },
@@ -6355,22 +6355,22 @@
         "context": "hunt_xp"
       },
       "dragon_king_02": {
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "name": "Burst into flames",
         "context": "settlement"
       },
       "dragon_king_03": {
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "name": "Grew to giant size",
         "context": "consume"
       },
       "dragon_king_00": {
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "name": "Died by the Throne",
         "context": "endeavor"
       },
       "dragon_king_01": {
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "name": "Culled by the Tyrant",
         "context": "endeavor"
       },
@@ -6474,22 +6474,22 @@
         "context": "severe_injury"
       },
       "flower_knight_02": {
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "name": "Majestic Onslaught",
         "context": "showdown"
       },
       "flower_knight_03": {
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "name": "Necrotoxic Mistletoe",
         "context": "story_event"
       },
       "flower_knight_00": {
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "name": "Exterminated",
         "context": "showdown"
       },
       "flower_knight_01": {
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "name": "One Thousand Cuts",
         "context": "showdown"
       },
@@ -6650,7 +6650,7 @@
       "scythe": {
         "master_ai": "mastery_scythe",
         "name": "Scythe",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "specialist_ai": "scythe_specialization"
       },
       "fist_and_tooth": {
@@ -7372,9 +7372,9 @@
           "bgcolor": "94C9AB"
         }
       },
-      "flower_knight": {
+      "flower-knight": {
         "quarries": [
-          "flower_knight"
+          "flower-knight"
         ],
         "ui": {
           "pretty_category": "Quarry"
@@ -7471,7 +7471,7 @@
       },
       "gear_recipe": {
         "name": "Gear Recipe",
-        "expansion": "white_box"
+        "expansion": "white-box"
       },
       "gormery": {
         "name": "Gormery",
@@ -7483,7 +7483,7 @@
       },
       "dragon_armory": {
         "name": "Dragon Armory",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "light_forging": {
         "name": "Light-Forging",
@@ -7495,7 +7495,7 @@
       },
       "green_knight_armor": {
         "name": "Green Knight Armor",
-        "expansion": "green_knight_armor"
+        "expansion": "green-knight-armor"
       },
       "other": {
         "color": "FFF",
@@ -7509,7 +7509,7 @@
       },
       "black_harvest": {
         "name": "Black Harvest",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "starting_gear": {
         "bgcolor": "CCC",
@@ -7522,7 +7522,7 @@
       },
       "sense_memory": {
         "name": "Sense Memory",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "leather_worker": {
         "color": "FFF",
@@ -7556,15 +7556,15 @@
       },
       "wet_resin_crafter": {
         "name": "Wet Resin Crafter",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "ivory_carver": {
         "name": "Ivory Carver",
-        "expansion": "white_box"
+        "expansion": "white-box"
       },
       "promo": {
         "name": "Promo",
-        "expansion": "white_box"
+        "expansion": "white-box"
       },
       "skyreef_sanctuary": {
         "name": "Skyreef Sanctuary",
@@ -7596,7 +7596,7 @@
       "dung_beetle_knight_resources": {
         "bgcolor": "DCD900",
         "name": "Dung Beetle Knight Resources",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "phoenix_resources": {
         "bgcolor": "DCD900",
@@ -7618,12 +7618,12 @@
         ],
         "bgcolor": "DCD900",
         "name": "Dragon King Resources",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "flower_knight_resources": {
         "bgcolor": "DCD900",
         "name": "Flower Knight Resources",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "strange_resources": {
         "bgcolor": "9DC209",
@@ -7784,7 +7784,7 @@
       "limb_maker": {
         "cost": 2,
         "name": "Limb-maker",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "Once per settlement phase, spend 2 <font class=\"kdm_font\">d</font> to carve a prosthetic limb. Remove a survivor's <b>dismembered</b> injury and add 1 bone to the settlement's storage."
       },
       "guidepost_default": {
@@ -8262,7 +8262,7 @@
         "color": "3BB9FF",
         "selectable": false,
         "name": "Promo",
-        "expansion": "white_box"
+        "expansion": "white-box"
       },
       "gear_recipe": {
         "color": "333",
@@ -8305,14 +8305,14 @@
         "font_color": "fff",
         "selectable": false,
         "name": "Green Knight Armor",
-        "expansion": "green_knight_armor"
+        "expansion": "green-knight-armor"
       },
       "black_harvest": {
         "color": "333",
         "font_color": "FFF",
         "selectable": false,
         "name": "Black Harvest",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "ivory_carver": {
         "color": "FFFFF0",
@@ -8324,7 +8324,7 @@
         "font_color": "FFF",
         "selectable": false,
         "name": "Sense Memory",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       }
     },
     "resources": {
@@ -8332,7 +8332,7 @@
         "color": "DCD900",
         "selectable": false,
         "name": "Dung Beetle Knight Resources",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "phoenix_resources": {
         "color": "DCD900",
@@ -8349,13 +8349,13 @@
         "color": "DCD900",
         "selectable": false,
         "name": "Dragon King Resources",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "flower_knight_resources": {
         "color": "DCD900",
         "selectable": false,
         "name": "Flower Knight Resources",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "strange_resources": {
         "color": "9DC209",
@@ -8444,7 +8444,7 @@
         "font_color": "FFF",
         "type": "gear",
         "name": "Dragon Armory",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "lantern_hoard": {
         "endeavors": [
@@ -8585,7 +8585,7 @@
         "color": "C9CE62",
         "type": "gear",
         "name": "Wet Resin Crafter",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "throne": {
         "endeavors": [
@@ -8605,7 +8605,7 @@
         ],
         "type": "gear",
         "name": "Throne",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "skyreef_sanctuary": {
         "color": "FFF541",
@@ -8685,7 +8685,7 @@
         },
         "survivor_buff": "Newborn survivors are born with +1 permanent strength and the <font class=\"maroon_text\">Pristine</font> ability.",
         "name": "Empire",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "innovation_type": "home"
       },
       "settlement_watch": {
@@ -8714,7 +8714,7 @@
       },
       "the_knowledge_worm": {
         "name": "The Knowledge Worm",
-        "expansion": "lion_god",
+        "expansion": "lion-god",
         "settlement_buff": "At the start of each settlement phase, add 1 scrap to settlement storage.<br/><b>Departing Survivors</b> gain +3 survival and +3 insanity. If any of those survivors have 10+ insanity, <font class=\"kdm_font\">g</font> <b>A Gracious Host</b>.",
         "departing_survival_bonus": {
           "general": 3
@@ -8792,7 +8792,7 @@
           "all": 1
         },
         "desc": "<b>Departing Survivors</b> and newborn survivors gain +1 survival.<br/><b>Departing survivors</b> with a constellation gain +1 survival.",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "innovation_type": "science"
       },
       "shadow_dancing": {
@@ -8804,7 +8804,7 @@
         "innovation_type": "home"
       },
       "white_mask": {
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "endeavors": [
           "lion_knight_0_visit_the_retinue",
           "lion_knight_white_mask_leave_the_monster"
@@ -8857,7 +8857,7 @@
           "ammonia"
         ],
         "survival_action": "encourage",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "survival_limit": 1,
         "innovation_type": "starting innovation"
       },
@@ -8888,7 +8888,7 @@
           "arena_spar"
         ],
         "name": "Arena",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "innovation_type": "education"
       },
       "bloodline": {
@@ -8897,7 +8897,7 @@
         ],
         "survivor_buff": "Newborn survivors inherit the following from their parents:<ul><li>The <font class=\"maroon_text\">Oracle's Eye</font>, <font class=\"maroon_text\">Iridescent Hide</font>, or <font class=\"maroon_text\">Pristine</font> ability (choose 1)</li><li>1 <b>Surname</b></li><li>Half of one parent's weapon proficiency levels (rounded up)</li></ul>",
         "name": "Bloodline",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "innovation_type": "home"
       },
       "petal_spiral": {
@@ -8919,7 +8919,7 @@
           "petal_spiral_trace_petals"
         ],
         "name": "Petal Spiral",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "innovation_type": "music"
       },
       "silk_refining": {
@@ -8953,11 +8953,11 @@
           "round_stone_training_train"
         ],
         "name": "Round Stone Training",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "innovation_type": "education"
       },
       "black_mask": {
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "endeavors": [
           "lion_knight_black_mask_face_the_monster",
           "lion_knight_0_visit_the_retinue"
@@ -8969,7 +8969,7 @@
         "innovation_type": "other"
       },
       "stoic_statue": {
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "endeavors": [
           "stoic_statue_worship_the_monster"
         ],
@@ -8987,7 +8987,7 @@
           "subterranean_agriculture_2_build_wet_resin_crafter"
         ],
         "name": "Subterranean Agriculture",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "innovation_type": "science"
       },
       "hands_of_the_sun": {
@@ -10429,7 +10429,7 @@
         ],
         "settlement_sheet_init": {
           "expansions": [
-            "flower_knight"
+            "flower-knight"
           ],
           "quarries": [
             "white_lion"
@@ -10446,7 +10446,7 @@
         },
         "forbidden": {
           "quarries": [
-            "flower_knight"
+            "flower-knight"
           ],
           "events": [
             "fk_crones_tale"
@@ -11511,7 +11511,7 @@
           "expansions": [
             "green_knight_armor",
             "dung_beetle_knight",
-            "flower_knight",
+            "flower-knight",
             "lion_knight",
             "gorm"
           ],
@@ -11790,7 +11790,7 @@
       "old_master": {
         "sort_order": 30,
         "name": "Old Master",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "golden_eyed_king": {
         "sort_order": 23,
@@ -11802,7 +11802,7 @@
         "node": 4,
         "sort_order": 8,
         "name": "Dung Beetle Knight",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "sunstalker": {
         "node": 4,
@@ -11810,17 +11810,17 @@
         "name": "Sunstalker",
         "expansion": "sunstalker"
       },
-      "flower_knight": {
+      "flower-knight": {
         "node": 3,
         "sort_order": 4,
         "name": "Flower Knight",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "dragon_king": {
         "node": 4,
         "sort_order": 7,
         "name": "Dragon King",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "phoenix": {
         "node": 3,
@@ -11834,7 +11834,7 @@
         "node": 5,
         "sort_order": 9,
         "name": "Lion God",
-        "expansion": "lion_god"
+        "expansion": "lion-god"
       },
       "screaming_antelope": {
         "node": 2,
@@ -11902,7 +11902,7 @@
       "lion_knight": {
         "node": 2,
         "name": "Lion Knight",
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "sort_order": 106,
         "selectable": false,
         "misspellings": [
@@ -11974,28 +11974,28 @@
         "max": 1,
         "type": "ability",
         "name": "Super Hair",
-        "expansion": "lonely_tree",
+        "expansion": "lonely-tree",
         "desc": "You may spend <font class=\"kdm_font\">a</font> to freely exchange any tokens with adjacent survivors who have <b>Super Hair</b>."
       },
       "rooted_to_all": {
         "max": 1,
         "type": "ability",
         "name": "Rooted to All",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "If you are standing at the start of your act, reveal the top 2 cards of the AI deck and put them back in any order."
       },
       "acid_palms_dk": {
         "max": 1,
         "type": "ability",
         "name": "Acid Palms",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "Add 1d10 strength to your wound attempts when attacking with Fist & Tooth."
       },
       "red_glow": {
         "max": 1,
         "type": "ability",
         "name": "Red Glow",
-        "expansion": "beta_challenge_scenarios",
+        "expansion": "beta-challenge-scenarios",
         "desc": "<font class=\"kdm_font\">a</font> Make a melee attack with speed 3, accuracy 7+, and strength 5."
       },
       "acid_palms_gorm": {
@@ -12009,41 +12009,41 @@
         "max": 1,
         "epithet": "hideous",
         "name": "Hideous Disguise",
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "desc": "At the start of the showdown, if you are fighting the Lion Knight, choose your Role card."
       },
       "heart_of_the_sword": {
         "max": 1,
         "type": "ability",
         "name": "Heart of the Sword",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "If you gain weapon proficiency during the Aftermath, gain +3 additional ranks. You cough up a hunk of your own solidified blood and gain +1 <b>Iron</b> strange resource."
       },
       "nightmare_membrane": {
         "max": 1,
         "type": "ability",
         "name": "Nightmare Membrane",
-        "expansion": "lonely_tree",
+        "expansion": "lonely-tree",
         "desc": "You may spend <font class=\"kdm_font\">a c</font> to exchange any 1 of your tokens for a +1 strength token."
       },
       "nightmare_spurs": {
         "max": 1,
         "type": "ability",
         "name": "Nightmare Spurs",
-        "expansion": "lonely_tree",
+        "expansion": "lonely-tree",
         "desc": "Once per showdown, you may spend all your survival (at least 1) to lose all your +1 strength tokens and gain that many +1 luck tokens."
       },
       "way_of_the_rust": {
         "max": 1,
         "type": "ability",
         "name": "Way of the Rust",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "Your bleeding tokens are also +1 evasion tokens."
       },
       "pristine": {
         "name": "Pristine",
         "max": 1,
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "constellation": {
           "horizontal": "Gambler",
           "vertical": "Reaper"
@@ -12055,7 +12055,7 @@
         "name": "Sleeping Virus Flower",
         "max": 1,
         "epithet": "host",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "desc": "When you die, a flower blooms from your corpse. Add <font class=\"kdm_font\">g</font> <b>A Warm Virus</b> to the timeline next year. You are the guest.",
         "Luck": 1
       },
@@ -12063,14 +12063,14 @@
         "max": 1,
         "type": "ability",
         "name": "Green Glow",
-        "expansion": "beta_challenge_scenarios",
+        "expansion": "beta-challenge-scenarios",
         "desc": "<font class=\"kdm_font\">a</font> Add <font class=\"inline_shield\">1</font> to all hit locations."
       },
       "twelve_fingers": {
         "name": "Twelve Fingers",
         "max": 1,
         "cannot_activate_two_handed_weapons": true,
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "type": "ability",
         "desc": "You cannot carry two-handed gear. On a Perfect hit, your right hand pulses. Gain +5 insanity and +1 luck for the attack. However, for each natural 1 rolled when attempting to hit, your left hand shakes. Suffer 5 brain damage and -1 luck for the attack."
       },
@@ -12096,14 +12096,14 @@
         "max": 1,
         "type": "ability",
         "name": "Psychovore",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "Once per showdown, you may eat an adjacent survivor's disorder. If you do, remove the disorder. They gain 1 bleeding token and you gain +1 permanent strength. At the end of the showdown, if you haven't eaten a disorder, you die."
       },
       "gender_swap": {
         "name": "Gender Swap",
         "max": 1,
         "epithet": "gender_swap",
-        "expansion": "white_box",
+        "expansion": "white-box",
         "reverse_sex": true,
         "type": "curse",
         "desc": "You own the <b>Belt of Gender Swap</b>, it will always take one space in your gear grid and while it is there, your gender is reversed."
@@ -12112,7 +12112,7 @@
         "max": 1,
         "type": "ability",
         "name": "Nightmare Blood",
-        "expansion": "lonely_tree",
+        "expansion": "lonely-tree",
         "desc": "Whenever you gain a bleeding token, add <font class=\"inline_shield\">1</font> to all hit locations."
       },
       "limb_maker": {
@@ -12121,7 +12121,7 @@
         "endeavors": [
           "limb_maker"
         ],
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "type": "ability",
         "desc": "Once per settlement phase, spend 2 <font class=\"kdm_font\">d</font> to carve a prosthetic limb. Remove a survivor's <b>dismembered</b> injury and add 1 bone to the settlement's storage."
       },
@@ -12129,7 +12129,7 @@
         "max": 1,
         "type": "curse",
         "name": "Death Mehndi",
-        "expansion": "lion_god",
+        "expansion": "lion-god",
         "desc": "On a <b>Perfect hit</b>, gain 1d10 insanity. -4 to all brain trauma rolls."
       },
       "reflection": {
@@ -12143,20 +12143,20 @@
         "max": 1,
         "type": "ability",
         "name": "Solid",
-        "expansion": "beta_challenge_scenarios",
+        "expansion": "beta-challenge-scenarios",
         "desc": "If you would be knocked down, roll 1d10. On a 4+, you are not knocked down."
       },
       "presage": {
         "max": 1,
         "type": "ability",
         "name": "Presage",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "Each time you attack, before drawing hit locations, loudly say a name. You lightly bite the eye in your cheek to see what it sees. If you draw any hit locations with that name, gain +3 insanity and +10 strength when attempting to wound them."
       },
       "oracles_eye": {
         "name": "Oracle's Eye",
         "max": 1,
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "constellation": {
           "horizontal": "Goblin",
           "vertical": "Witch"
@@ -12175,13 +12175,13 @@
         "max": 1,
         "type": "ability",
         "name": "Blue Glow",
-        "expansion": "beta_challenge_scenarios",
+        "expansion": "beta-challenge-scenarios",
         "desc": "<font class=\"kdm_font\">a</font> Move a Portal terrain tile on the showdown board to Snow's space. If there are less than 2 Portals on the board, add one to Snow's space instead."
       },
       "iridescent_hide": {
         "name": "Iridescent Hide",
         "max": 1,
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "constellation": {
           "horizontal": "Absolute",
           "vertical": "Storm"
@@ -12193,7 +12193,7 @@
         "max": 1,
         "type": "ability",
         "name": "Twilight Succession",
-        "expansion": "beta_challenge_scenarios",
+        "expansion": "beta-challenge-scenarios",
         "desc": "If you die during the showdown and have a Twilight Sword, nominate another survivor on the showdown board to gain the Twilight Sword and this ability."
       }
     },
@@ -12247,7 +12247,7 @@
           ]
         },
         "weapon_proficiency": "scythe",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "When you critically wound with a scythe, roll 1d10. On a 6+, shuffle the hit location deck (do not shuffle unresolved hit locations).<br/>Limit, once per round."
       },
       "mastery_club": {
@@ -13019,7 +13019,7 @@
       },
       "scythe_specialization": {
         "name": "Specialization - Scythe",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "When you critically wound with a scythe, roll 1d10. On a 6+, shuffle the hit location deck (do not shuffle unresolved hit locations).<br/>Limit, once per round."
       },
       "dagger_specialization": {
@@ -13475,19 +13475,19 @@
     "mar_2016_expansions": {
       "necromancer": {
         "name": "Necromancer",
-        "expansion": "lion_god"
+        "expansion": "lion-god"
       },
       "spelunker_of_death": {
         "name": "Spelunker of Death",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "reincarnated": {
         "name": "Reincarnated",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "tyrant": {
         "name": "Tyrant",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "purified": {
         "name": "Purified",
@@ -13495,13 +13495,13 @@
       },
       "vespertine": {
         "name": "Vespertine",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "the_storm": {
         "bordercolor": "4527A0",
         "name": "The Storm",
         "color": "FFF",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "bgcolor": "4527A0",
         "selectable": false
       },
@@ -13515,23 +13515,23 @@
       },
       "consumer_of_sins": {
         "name": "Consumer of Sins",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "monster_worshipper": {
         "name": "Monster Worshipper",
-        "expansion": "lion_knight"
+        "expansion": "lion-knight"
       },
       "farmer": {
         "name": "Farmer",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "hideous": {
         "name": "Hideous",
-        "expansion": "lion_knight"
+        "expansion": "lion-knight"
       },
       "silver_city_explorer": {
         "name": "Silver City Explorer",
-        "expansion": "lion_god"
+        "expansion": "lion-god"
       },
       "black_widow": {
         "name": "Black Widow",
@@ -13546,13 +13546,13 @@
         "bordercolor": "4527A0",
         "name": "The Goblin",
         "color": "FFF",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "bgcolor": "4527A0",
         "selectable": false
       },
       "atomic_heart": {
         "name": "Atomic Heart",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "gloomy": {
         "color": "fff",
@@ -13562,15 +13562,15 @@
       },
       "round_stone_trainer": {
         "name": "Round Stone Trainer",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "star_gazer": {
         "name": "Star Gazer",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "successor": {
         "name": "Successor",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "avenger": {
         "name": "Avenger",
@@ -13592,13 +13592,13 @@
         "bordercolor": "4527A0",
         "name": "The Sculptor",
         "color": "FFF",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "bgcolor": "4527A0",
         "selectable": false
       },
       "met_the_bug_man": {
         "name": "Met the Bug Man",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "hellion": {
         "name": "Hellion",
@@ -13610,7 +13610,7 @@
       },
       "husk": {
         "name": "Husk",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "crimson_confectioner": {
         "bordercolor": "d00",
@@ -13627,11 +13627,11 @@
       },
       "gladiator": {
         "name": "Gladiator",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "entomophile": {
         "name": "Entomophile",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "blotted_out": {
         "bordercolor": "470A65",
@@ -13642,7 +13642,7 @@
       },
       "dragonkin": {
         "name": "Dragonkin",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "gormchymist": {
         "name": "Gormchymist",
@@ -13650,15 +13650,15 @@
       },
       "pristine": {
         "name": "Pristine",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "beetle_brain": {
         "name": "Beetle-brain",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "starbound": {
         "name": "Starbound",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "triplet": {
         "name": "Triplet",
@@ -13675,14 +13675,14 @@
       "the_first_guest": {
         "bordercolor": "116E17",
         "bgcolor": "116E17",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "color": "0f0",
         "name": "The First Guest"
       },
       "host": {
         "bordercolor": "116E17",
         "bgcolor": "116E17",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "name": "Host",
         "color": "0f0"
       },
@@ -13692,13 +13692,13 @@
       },
       "imago_tyrannis": {
         "name": "Imago Tyrannis",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "the_witch": {
         "bordercolor": "4527A0",
         "name": "The Witch",
         "color": "FFF",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "bgcolor": "4527A0",
         "selectable": false
       },
@@ -13746,13 +13746,13 @@
       },
       "dancer": {
         "name": "Dancer",
-        "expansion": "lion_knight"
+        "expansion": "lion-knight"
       },
       "the_rust": {
         "bordercolor": "4527A0",
         "name": "The Rust",
         "color": "FFF",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "bgcolor": "4527A0",
         "selectable": false
       },
@@ -13763,13 +13763,13 @@
       "guest": {
         "bordercolor": "116E17",
         "bgcolor": "116E17",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "name": "Guest",
         "color": "0f0"
       },
       "brawler": {
         "name": "Brawler",
-        "expansion": "lion_knight"
+        "expansion": "lion-knight"
       },
       "taken": {
         "name": "Taken",
@@ -13784,23 +13784,23 @@
       "the_first_host": {
         "bordercolor": "116E17",
         "bgcolor": "116E17",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "color": "0f0",
         "name": "The First Host"
       },
       "nuclear_warrior": {
         "name": "Nuclear Warrior",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "beetle_kin": {
         "name": "Beetle-kin",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "the_gambler": {
         "bordercolor": "4527A0",
         "name": "The Gambler",
         "color": "FFF",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "bgcolor": "4527A0",
         "selectable": false
       },
@@ -13810,13 +13810,13 @@
       },
       "sweetmeat_eater": {
         "name": "Sweetmeat Eater",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "the_reaper": {
         "bordercolor": "4527A0",
         "name": "The Reaper",
         "color": "FFF",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "bgcolor": "4527A0",
         "selectable": false
       },
@@ -13826,19 +13826,19 @@
       },
       "approached_the_throne": {
         "name": "Approached the Throne",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "molded_by_the_tyrant": {
         "name": "Molded by the Tyrant",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "consumer_of_lies": {
         "name": "Consumer of Lies",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "numerologist": {
         "name": "Numerologist",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "recruit": {
         "name": "Recruit",
@@ -13850,7 +13850,7 @@
       },
       "warlord": {
         "name": "Warlord",
-        "expansion": "lion_knight"
+        "expansion": "lion-knight"
       },
       "deranged_expression": {
         "bordercolor": "000",
@@ -13865,7 +13865,7 @@
       },
       "worm_bait": {
         "name": "Worm Bait",
-        "expansion": "lion_god"
+        "expansion": "lion-god"
       },
       "ancient_gorm_bait": {
         "name": "Ancient Gorm's Bait",
@@ -13881,7 +13881,7 @@
       },
       "noble": {
         "name": "Noble",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "slave": {
         "bordercolor": "000",
@@ -13894,7 +13894,7 @@
         "bordercolor": "FFC107",
         "bgcolor": "FFC107",
         "name": "Foundling",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "forgettable": {
         "name": "Forgettable",
@@ -13920,13 +13920,13 @@
       },
       "held_the_radiant_heart": {
         "name": "Held the Radiant Heart",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "gender_swap": {
         "bordercolor": "BC2361",
         "name": "Gender Swap",
         "color": "fff",
-        "expansion": "white_box",
+        "expansion": "white-box",
         "bgcolor": "FF4081",
         "selectable": false
       },
@@ -13939,17 +13939,17 @@
       },
       "peered_into_destiny": {
         "name": "Peered into Destiny",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       },
       "flower_addict": {
         "name": "Flower Addict",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "the_absolute": {
         "bordercolor": "4527A0",
         "name": "The Absolute",
         "color": "FFF",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "bgcolor": "4527A0",
         "selectable": false
       },
@@ -13965,7 +13965,7 @@
       },
       "bug_man": {
         "name": "Bug Man",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       }
     }
   },
@@ -14051,14 +14051,14 @@
       },
       "promo_strange_spot": {
         "name": "A Strange Spot",
-        "expansion": "white_box"
+        "expansion": "white-box"
       },
       "core_first_day": {
         "name": "First Day"
       },
       "promo_story_in_the_snow": {
         "name": "Story in the Snow",
-        "expansion": "white_box"
+        "expansion": "white-box"
       },
       "core_hunt_reenactment": {
         "name": "Hunt Reenactment"
@@ -14138,7 +14138,7 @@
       },
       "dk_meltdown": {
         "name": "Meltdown",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "page": 8
       },
       "slender_dark_place": {
@@ -14157,7 +14157,7 @@
       },
       "dbk_spelunking_of_death": {
         "name": "Spelunking of Death",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "page": 13
       },
       "core_new_life": {
@@ -14170,17 +14170,17 @@
       },
       "lk_finale": {
         "name": "Finale",
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "page": 14
       },
       "lk_strange_caravan": {
         "name": "Strange Caravan",
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "page": 13
       },
       "lt_lonley_lady": {
         "name": "The Lonely Lady",
-        "expansion": "lonely_tree",
+        "expansion": "lonely-tree",
         "page": 2
       },
       "ss_pool_and_sun": {
@@ -14203,12 +14203,12 @@
       },
       "dbk_black_harvest": {
         "name": "Black Harvest",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "page": 17
       },
       "fk_necrotoxic_mistletoe": {
         "name": "Necrotoxic Mistletoe",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "page": 20
       },
       "core_birth_of_a_savior": {
@@ -14225,22 +14225,22 @@
       },
       "lgod_knowledge_worm": {
         "name": "The Knowledge Worm",
-        "expansion": "lion_god",
+        "expansion": "lion-god",
         "page": 12
       },
       "fk_forest_wants_what_it_wants": {
         "name": "The Forest Wants What It Wants",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "page": 12
       },
       "dk_unveil_the_sky": {
         "name": "Unveil the Sky",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "page": 18
       },
       "lgod_death_reading": {
         "name": "Death Reading",
-        "expansion": "lion_god",
+        "expansion": "lion-god",
         "page": 16
       },
       "spid_taken": {
@@ -14250,12 +14250,12 @@
       },
       "lk_uninvited_guest": {
         "name": "An Uninvited Guest",
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "page": 5
       },
       "lk_places_everyone": {
         "name": "Places, Everyone!",
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "page": 7
       },
       "core_cooking": {
@@ -14288,7 +14288,7 @@
       },
       "lgod_silver_city": {
         "name": "The Silver City",
-        "expansion": "lion_god",
+        "expansion": "lion-god",
         "page": 2
       },
       "core_overwhelming_darkness": {
@@ -14314,7 +14314,7 @@
       },
       "dk_awake": {
         "name": "Awake",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "page": 16
       },
       "core_conviction": {
@@ -14338,12 +14338,12 @@
       },
       "fk_sense_memory": {
         "name": "Sense Memory",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "page": 16
       },
       "fk_crones_tale": {
         "name": "A Crone's Tale",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "page": 4
       },
       "spid_puppets_embalming": {
@@ -14353,7 +14353,7 @@
       },
       "dbk_secret_meeting": {
         "name": "Secret Meeting",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "page": 19
       },
       "core_society": {
@@ -14367,12 +14367,12 @@
       },
       "fk_breakthrough": {
         "name": "Breakthrough",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "page": 14
       },
       "dk_death_of_the_dragon_king": {
         "name": "Death of the Dragon King",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "page": 27
       },
       "core_oxidation": {
@@ -14399,7 +14399,7 @@
       },
       "lgod_gracious_host": {
         "name": "A Gracious Host",
-        "expansion": "lion_god",
+        "expansion": "lion-god",
         "page": 15
       },
       "spid_spidisisyphus": {
@@ -14437,7 +14437,7 @@
       },
       "dk_intimacy": {
         "name": "Intimacy",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "page": 12
       },
       "slender_its_already_here": {
@@ -14451,7 +14451,7 @@
       },
       "dbk_rumbling_in_the_dark": {
         "name": "Rumbling in the Dark",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "page": 4
       },
       "core_intimacy": {
@@ -14473,7 +14473,7 @@
       },
       "dk_faces_in_the_sky": {
         "name": "Faces in the Sky",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "page": 20
       },
       "ss_sun_dipping": {
@@ -14487,7 +14487,7 @@
       },
       "lk_intermission": {
         "name": "Intermission",
-        "expansion": "lion_knight",
+        "expansion": "lion-knight",
         "page": 10
       },
       "slender_light_forging": {
@@ -14497,7 +14497,7 @@
       },
       "dk_glowing_crater": {
         "name": "Glowing Crater",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "page": 4
       },
       "core_returning_survivors": {
@@ -14506,7 +14506,7 @@
       },
       "dk_tomb": {
         "name": "The Tomb",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "page": 22
       },
       "core_herb_gathering": {
@@ -14519,12 +14519,12 @@
       },
       "dbk_underground_sow": {
         "name": "Underground Sow",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "page": 15
       },
       "dk_foundlings": {
         "name": "Foundlings",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "page": 10
       },
       "core_endless_screams": {
@@ -14533,7 +14533,7 @@
       },
       "dk_midnights_children": {
         "name": "Midnight's Children",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "page": 14
       },
       "core_see_the_truth": {
@@ -14546,12 +14546,12 @@
       },
       "fk_warm_virus": {
         "name": "A Warm Virus",
-        "expansion": "flower_knight",
+        "expansion": "flower-knight",
         "page": 18
       },
       "lgod_necropolis": {
         "name": "Necropolis",
-        "expansion": "lion_god",
+        "expansion": "lion-god",
         "page": 10
       },
       "spid_silk_surgery": {
@@ -15068,7 +15068,7 @@
         ],
         "type": "dragon_king_resources",
         "name": "Radioactive Dung",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "<i>Gives off smoke with an acrid odor.</i>"
       },
       "pure_bulb": {
@@ -15087,7 +15087,7 @@
         ],
         "type": "dung_beetle_knight_resources",
         "name": "Century Shell",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "desc": "This ancient and mineral-rich armor plate is covered with razor wind scratches.<br/>You may spend this as if it were a <b>Scarab Shell</b> resources."
       },
       "old_blue_box": {
@@ -15096,7 +15096,7 @@
         ],
         "type": "strange_resources",
         "name": "Old Blue Box",
-        "expansion": "lion_god"
+        "expansion": "lion-god"
       },
       "cabled_vein": {
         "keywords": [
@@ -15104,7 +15104,7 @@
         ],
         "type": "dragon_king_resources",
         "name": "Cabled Vein",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "<i>A dense bundle of bloody tubes.</i>"
       },
       "stout_hide": {
@@ -15132,7 +15132,7 @@
         ],
         "type": "dragon_king_resources",
         "name": "Dragon Iron",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "<i>It feels heavy, but when dropped, falls as slowly as a feather.</i>"
       },
       "unlaid_eggs": {
@@ -15154,7 +15154,7 @@
         ],
         "type": "dung_beetle_knight_resources",
         "name": "Beetle Horn",
-        "expansion": "dung_beetle_knight"
+        "expansion": "dung-beetle-knight"
       },
       "veined_wing": {
         "keywords": [
@@ -15162,7 +15162,7 @@
         ],
         "type": "dragon_king_resources",
         "name": "Veined Wing",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "<i>Blood drips from it at a constant rate.</i>"
       },
       "prismatic_gills": {
@@ -15248,7 +15248,7 @@
         ],
         "type": "strange_resources",
         "name": "Preserved Caustic Dung",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "desc": "The live cultures in this exotic mixture of matured dung have been preserved within a delicate, airtight jelly casing."
       },
       "small_appendages": {
@@ -15270,7 +15270,7 @@
         ],
         "type": "flower_knight_resources",
         "name": "Lantern Bloom",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "sunshark_bone": {
         "keywords": [
@@ -15288,7 +15288,7 @@
         ],
         "type": "strange_resources",
         "name": "Scell",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "desc": "As the monster ages, this sticky and corrosive material builds between the thin layers of its scarab shells. It breaks down fecal product, preventing the knight's joints from locking up.<br/>During <b>Black Harvest</b>, a Restorer can make excellent use of a Scell, using it to nearly perfect the final step of the calcification process."
       },
       "husk": {
@@ -15297,7 +15297,7 @@
         ],
         "type": "dragon_king_resources",
         "name": "Husk",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "<i>A decaying layer of former skin.</i>"
       },
       "underplate_fungus": {
@@ -15308,7 +15308,7 @@
         ],
         "type": "dung_beetle_knight_resources",
         "name": "Underplate Fungus",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "desc": "A corkscrew-shaped fungus that grows in the empty channels between the Dung Beetle Knight's armor plating."
       },
       "stomach_lining": {
@@ -15327,7 +15327,7 @@
         ],
         "type": "strange_resources",
         "name": "Triptych",
-        "expansion": "lion_god"
+        "expansion": "lion-god"
       },
       "scarab_wing": {
         "keywords": [
@@ -15335,7 +15335,7 @@
         ],
         "type": "dung_beetle_knight_resources",
         "name": "Scarab Wing",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "desc": "When soaked in water, these vein-filled wings gain some elasticity."
       },
       "large_appendage": {
@@ -15411,7 +15411,7 @@
         ],
         "type": "strange_resources",
         "name": "Jagged Marrow Fruit",
-        "expansion": "lonely_tree"
+        "expansion": "lonely-tree"
       },
       "porous_flesh_fruit": {
         "keywords": [
@@ -15420,7 +15420,7 @@
         ],
         "type": "strange_resources",
         "name": "Porous Flesh Fruit",
-        "expansion": "lonely_tree"
+        "expansion": "lonely-tree"
       },
       "scarab_shell": {
         "keywords": [
@@ -15428,7 +15428,7 @@
         ],
         "type": "dung_beetle_knight_resources",
         "name": "Scarab Shell",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "desc": "Cool and oily to the touch. Lantern light reveals a brilliant band of color dancing on its surface."
       },
       "mammoth_hand": {
@@ -15458,7 +15458,7 @@
         ],
         "type": "strange_resources",
         "name": "Blistering Plasma Fruit",
-        "expansion": "lonely_tree"
+        "expansion": "lonely-tree"
       },
       "elytra": {
         "keywords": [
@@ -15468,7 +15468,7 @@
         ],
         "type": "dung_beetle_knight_resources",
         "name": "Elytra",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "desc": "The ribbed underside of these large shells makes an ideal surface to grind weapons. A survivor may archive this to give all of their attacks in the next showdown <b>Sharp</b>."
       },
       "acid_gland": {
@@ -15522,7 +15522,7 @@
         ],
         "type": "strange_resources",
         "name": "Sarcophagus",
-        "expansion": "lion_god"
+        "expansion": "lion-god"
       },
       "meaty_rib": {
         "keywords": [
@@ -15551,7 +15551,7 @@
         ],
         "type": "dung_beetle_knight_resources",
         "name": "Compound Eye",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "desc": "A cluster of differently colored eyes, each filled with a creamy, tangy syrup. If you have 3+ courage, you may <b>consume</b> and archive this to gain +3d10 insanity."
       },
       "crimson_vial": {
@@ -15579,7 +15579,7 @@
         ],
         "type": "dragon_king_resources",
         "name": "King's Claws",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "<i>Disturbingly warm, and sharp enough to draw blood with a touch.</i>"
       },
       "inner_shadow_skin": {
@@ -15610,7 +15610,7 @@
         ],
         "type": "flower_knight_resources",
         "name": "Sighing Bloom",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "pituitary_gland": {
         "keywords": [
@@ -15619,7 +15619,7 @@
         ],
         "type": "strange_resources",
         "name": "Pituitary Gland",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "<b>Consume:</b> Archive this and roll 1d10. On a 4+, gain +1 permanent strength. Otherwise, you grow to giant size and die."
       },
       "bugfish": {
@@ -15651,7 +15651,7 @@
         ],
         "type": "flower_knight_resources",
         "name": "Osseous Bloom",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "shining_liver": {
         "keywords": [
@@ -15659,7 +15659,7 @@
         ],
         "type": "strange_resources",
         "name": "Shining Liver",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "When exposed to light, it filters it into heat and become darker."
       },
       "3000_year_sunspot": {
@@ -15679,7 +15679,7 @@
         ],
         "type": "strange_resources",
         "name": "Lonely Fruit",
-        "expansion": "lonely_tree"
+        "expansion": "lonely-tree"
       },
       "canopic_jar": {
         "keywords": [
@@ -15688,7 +15688,7 @@
         ],
         "type": "strange_resources",
         "name": "Canopic Jar",
-        "expansion": "lion_god"
+        "expansion": "lion-god"
       },
       "black_lens": {
         "keywords": [
@@ -15705,7 +15705,7 @@
         ],
         "type": "dragon_king_resources",
         "name": "Horn Fragment",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "<i>Nearby speech causes them to resonate.</i>"
       },
       "cycloid_scales": {
@@ -15761,7 +15761,7 @@
         ],
         "type": "strange_resources",
         "name": "Drifting Dream Fruit",
-        "expansion": "lonely_tree"
+        "expansion": "lonely-tree"
       },
       "lantern_bud": {
         "keywords": [
@@ -15773,7 +15773,7 @@
         ],
         "type": "flower_knight_resources",
         "name": "Lantern Bud",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "sunshark_blubber": {
         "keywords": [
@@ -15799,7 +15799,7 @@
         ],
         "type": "dragon_king_resources",
         "name": "Hardened Ribs",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "<i>Strong, flexible, and hollow.</i>"
       },
       "sunstones": {
@@ -15820,7 +15820,7 @@
         ],
         "type": "dung_beetle_knight_resources",
         "name": "Century Fingernails",
-        "expansion": "dung_beetle_knight",
+        "expansion": "dung-beetle-knight",
         "desc": "These nails are never clipped. Instead, they are folded and hammered hundreds of times into an impossibly fine edge."
       },
       "silver_urn": {
@@ -15830,7 +15830,7 @@
         ],
         "type": "strange_resources",
         "name": "Silver urn",
-        "expansion": "lion_god"
+        "expansion": "lion-god"
       },
       "kings_tongue": {
         "keywords": [
@@ -15838,7 +15838,7 @@
         ],
         "type": "dragon_king_resources",
         "name": "King's Tongue",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "<i>Smooth, dry, and sharp.</i>"
       },
       "jiggling_lard": {
@@ -15904,7 +15904,7 @@
         ],
         "type": "strange_resources",
         "name": "Radiant Heart",
-        "expansion": "dragon_king",
+        "expansion": "dragon-king",
         "desc": "When you gain this resource, roll 1d10. On a 3+ you burst into flames and die."
       },
       "warbling_bloom": {
@@ -15917,7 +15917,7 @@
         ],
         "type": "flower_knight_resources",
         "name": "Warbling Bloom",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "serrated_fangs": {
         "keywords": [
@@ -15967,14 +15967,14 @@
           "Hideous"
         ],
         "name": "Hideous Disguise",
-        "expansion": "lion_knight"
+        "expansion": "lion-knight"
       },
       "belt_of_gender_swap": {
         "abilities_and_impairments": [
           "gender_swap"
         ],
         "name": "Belt of Gender Swap",
-        "expansion": "white_box"
+        "expansion": "white-box"
       },
       "regal_helm": {
         "excluded_campaigns": [
@@ -16002,11 +16002,11 @@
           "Necromancer"
         ],
         "name": "Death Mehndi",
-        "expansion": "lion_god"
+        "expansion": "lion-god"
       },
       "blue_lantern": {
         "name": "Blue Lantern",
-        "expansion": "white_box"
+        "expansion": "white-box"
       },
       "thunder_maul": {
         "name": "Thunder Maul"
@@ -16034,11 +16034,11 @@
           "sleeping_virus_flower"
         ],
         "name": "Sleeping Virus Flower",
-        "expansion": "flower_knight"
+        "expansion": "flower-knight"
       },
       "husk_of_destiny": {
         "name": "Husk of Destiny",
-        "expansion": "dragon_king"
+        "expansion": "dragon-king"
       }
     }
   }

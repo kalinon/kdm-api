@@ -10,93 +10,106 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171004180858) do
-
-  create_table "cause_of_deaths", force: :cascade do |t|
-    t.string "name"
-    t.string "safe_name"
-    t.integer "context", default: 0
-    t.integer "expansion_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["expansion_id"], name: "index_cause_of_deaths_on_expansion_id"
-    t.index ["safe_name"], name: "index_cause_of_deaths_on_safe_name"
+ActiveRecord::Schema.define(version: 20_180_823_232_348) do
+  create_table 'cause_of_deaths', force: :cascade do |t|
+    t.string 'name'
+    t.string 'safe_name'
+    t.integer 'context', default: 0
+    t.integer 'expansion_id'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['expansion_id'], name: 'index_cause_of_deaths_on_expansion_id'
+    t.index ['safe_name'], name: 'index_cause_of_deaths_on_safe_name'
   end
 
-  create_table "expansions", force: :cascade do |t|
-    t.string "name"
-    t.string "safe_name"
-    t.date "released"
-    t.string "color"
-    t.string "bg_color"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["safe_name"], name: "index_expansions_on_safe_name"
+  create_table 'epithets', force: :cascade do |t|
+    t.string 'name'
+    t.string 'safe_name'
+    t.boolean 'selectable', default: true
+    t.string 'color', default: '#fff'
+    t.string 'bg_color', default: '#fff'
+    t.string 'border_color', default: '#333'
+    t.integer 'gender'
+    t.integer 'expansion_id'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['expansion_id'], name: 'index_epithets_on_expansion_id'
+    t.index ['safe_name'], name: 'index_epithets_on_safe_name'
   end
 
-  create_table "gear_types", force: :cascade do |t|
-    t.string "name"
-    t.string "safe_name"
-    t.string "color"
-    t.string "font_color"
-    t.integer "expansion_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["expansion_id"], name: "index_gear_types_on_expansion_id"
-    t.index ["safe_name"], name: "index_gear_types_on_safe_name"
+  create_table 'expansions', force: :cascade do |t|
+    t.string 'name'
+    t.string 'safe_name'
+    t.date 'released'
+    t.string 'color'
+    t.string 'bg_color'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['safe_name'], name: 'index_expansions_on_safe_name'
   end
 
-  create_table "locations", force: :cascade do |t|
-    t.string "name"
-    t.string "safe_name"
-    t.string "color"
-    t.string "font_color"
-    t.integer "expansion_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["expansion_id"], name: "index_locations_on_expansion_id"
-    t.index ["safe_name"], name: "index_locations_on_safe_name"
+  create_table 'gear_types', force: :cascade do |t|
+    t.string 'name'
+    t.string 'safe_name'
+    t.string 'color', default: '#333'
+    t.string 'font_color', default: '#fff'
+    t.integer 'expansion_id'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['expansion_id'], name: 'index_gear_types_on_expansion_id'
+    t.index ['safe_name'], name: 'index_gear_types_on_safe_name'
   end
 
-  create_table "monsters", force: :cascade do |t|
-    t.string "name"
-    t.string "safe_name"
-    t.boolean "is_quarry"
-    t.boolean "is_nemesis"
-    t.boolean "is_unique"
-    t.integer "expansion_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["expansion_id"], name: "index_monsters_on_expansion_id"
-    t.index ["safe_name"], name: "index_monsters_on_safe_name"
+  create_table 'locations', force: :cascade do |t|
+    t.string 'name'
+    t.string 'safe_name'
+    t.string 'color'
+    t.string 'font_color'
+    t.integer 'expansion_id'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['expansion_id'], name: 'index_locations_on_expansion_id'
+    t.index ['safe_name'], name: 'index_locations_on_safe_name'
   end
 
-  create_table "resource_types", force: :cascade do |t|
-    t.string "name"
-    t.string "safe_name"
-    t.string "color"
-    t.integer "expansion_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["expansion_id"], name: "index_resource_types_on_expansion_id"
-    t.index ["safe_name"], name: "index_resource_types_on_safe_name"
+  create_table 'monsters', force: :cascade do |t|
+    t.string 'name'
+    t.string 'safe_name'
+    t.boolean 'is_quarry'
+    t.boolean 'is_nemesis'
+    t.boolean 'is_unique'
+    t.integer 'expansion_id'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['expansion_id'], name: 'index_monsters_on_expansion_id'
+    t.index ['safe_name'], name: 'index_monsters_on_safe_name'
   end
 
-  create_table "survival_actions", force: :cascade do |t|
-    t.string "name"
-    t.string "safe_name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+  create_table 'resource_types', force: :cascade do |t|
+    t.string 'name'
+    t.string 'safe_name'
+    t.string 'color'
+    t.integer 'expansion_id'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['expansion_id'], name: 'index_resource_types_on_expansion_id'
+    t.index ['safe_name'], name: 'index_resource_types_on_safe_name'
   end
 
-  create_table "weapon_proficiencies", force: :cascade do |t|
-    t.string "name"
-    t.string "safe_name"
-    t.integer "expansion_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["expansion_id"], name: "index_weapon_proficiencies_on_expansion_id"
-    t.index ["safe_name"], name: "index_weapon_proficiencies_on_safe_name"
+  create_table 'survival_actions', force: :cascade do |t|
+    t.string 'name'
+    t.string 'safe_name'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
   end
 
+  create_table 'weapon_proficiencies', force: :cascade do |t|
+    t.string 'name'
+    t.string 'safe_name'
+    t.integer 'expansion_id'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['expansion_id'], name: 'index_weapon_proficiencies_on_expansion_id'
+    t.index ['safe_name'], name: 'index_weapon_proficiencies_on_safe_name'
+  end
 end

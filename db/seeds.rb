@@ -152,6 +152,22 @@ def create_gear_types(data)
   end
 end
 
+def create_epithets(data)
+  data.each_value do |sub_data|
+    sub_data.each_value do |epi|
+      Epithet.create(
+        name: epi[:name],
+        color: epi.key?(:color) ? "##{epi[:color].downcase}" : '#fff',
+        bg_color: epi.key?(:bgcolor) ? "##{epi[:bgcolor].downcase}" : '#fff',
+        border_color: epi.key?(:bordercolor) ? "##{epi[:bordercolor].downcase}" : '#333',
+        selectable: epi.key?(:selectable) ? epi[:selectable] : true,
+        gender: epi.key?(:sex) ? (epi[:sex] == 'M' ? :male : :female) : nil,
+        expansion: Expansion.where(safe_name: epi[:expansion]).first || core_exp
+      )
+    end
+  end
+end
+
 kdm_manager = JSON.parse(File.read(Rails.root.join('vendor', 'data', 'kdm_manager_08212018.json'))).deep_symbolize_keys
 # cards = JSON.parse(File.read(Rails.root.join('vendor', 'data', 'cards.json')))
 
@@ -173,3 +189,5 @@ puts "\n== Creating Resource Types =="
 create_resources(kdm_manager[:locations][:resources])
 puts "\n== Creating Gear Types =="
 create_gear_types(kdm_manager[:locations][:gear])
+puts "\n== Creating Epithets =="
+create_epithets(kdm_manager[:epithets])
