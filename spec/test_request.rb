@@ -92,7 +92,7 @@ module TestRequest #:nodoc:
   # Tests GET, POST on object list
   def test_path_list(args)
     # Path List
-    path "/api/v1/#{args[:subject_key].to_s.pluralize}" do
+    path "/#{args[:subject_key].to_s.pluralize}" do
       get summary: 'fetch list' do
         produces 'application/json'
         tags args[:subject_key]
@@ -123,7 +123,7 @@ module TestRequest #:nodoc:
 
   # Tests GET, PATCH, PUT, DELETE on object
   def test_path_object(args)
-    path "/api/v1/#{args[:subject_key].to_s.pluralize}/{id}" do
+    path "/#{args[:subject_key].to_s.pluralize}/{id}" do
       parameter 'id', in: :path, type: :integer
       let(:id) { 1 }
 

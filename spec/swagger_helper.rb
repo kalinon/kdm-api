@@ -13,7 +13,10 @@ RSpec.configure do |config|
       info: {
         title: 'KDM API V1',
         version: 'v1'
-      }
+      },
+      host: 'kdm-api.com',
+      basePath: '/api/v1',
+      schemes: ['https']
     }
   }
 
