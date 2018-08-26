@@ -1,11 +1,13 @@
 require 'swagger_helper'
 
-WP_SCHEMA = {
-  type: :object,
-  properties: {
-    name: { type: :string }, expansion_id: { type: :integer }
+def wep_schema
+  {
+    type: :object,
+    properties: {
+      name: { type: :string }, expansion_id: { type: :integer }
+    }
   }
-}
+end
 
 RSpec.describe 'WeaponProficiencies', type: :request do
   path '/weapon_proficiencies' do
@@ -21,7 +23,7 @@ RSpec.describe 'WeaponProficiencies', type: :request do
       parameter 'body', in: :body, schema: {
         type: :object,
         properties: {
-          weapon_proficiency: WP_SCHEMA
+          weapon_proficiency: wep_schema
         }
       }
 
@@ -35,7 +37,7 @@ RSpec.describe 'WeaponProficiencies', type: :request do
           expect(wep['expansion_id']).to eq(1)
         end
         capture_example
-        schema(WP_SCHEMA)
+        schema(wep_schema)
       end
     end
   end
@@ -47,7 +49,57 @@ RSpec.describe 'WeaponProficiencies', type: :request do
 
     get summary: 'fetch item' do
       produces 'application/json'
-      response 200, description: 'success', schema: WP_SCHEMA
+      response 200, description: 'success', schema: wep_schema
+    end
+
+    patch summary: 'update item' do
+      produces 'application/json'
+      consumes 'application/json'
+      parameter 'body', in: :body, schema: {
+        type: :object,
+        properties: {
+          weapon_proficiency: wep_schema
+        }
+      }
+
+      let(:body) { { weapon_proficiency: { name: 'Update Test Patch' } } }
+
+      response(200, description: 'successfully created') do
+        it 'uses the body we passed in' do
+          wep = JSON.parse(response.body)
+          expect(wep['name']).to eq('Update Test Patch')
+          expect(wep['safe_name']).to eq('update-test-patch')
+          expect(wep['expansion_id']).to eq(1)
+        end
+
+        capture_example
+        schema(wep_schema)
+      end
+    end
+
+    put summary: 'update item' do
+      produces 'application/json'
+      consumes 'application/json'
+      parameter 'body', in: :body, schema: {
+        type: :object,
+        properties: {
+          weapon_proficiency: wep_schema
+        }
+      }
+
+      let(:body) { { weapon_proficiency: { name: 'Update Test Put' } } }
+
+      response(200, description: 'successfully created') do
+        it 'uses the body we passed in' do
+          wep = JSON.parse(response.body)
+          expect(wep['name']).to eq('Update Test Put')
+          expect(wep['safe_name']).to eq('update-test-put')
+          expect(wep['expansion_id']).to eq(1)
+        end
+
+        capture_example
+        schema(wep_schema)
+      end
     end
   end
 end
