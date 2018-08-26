@@ -1,6 +1,4 @@
-module TestRequest
-  extend ActiveSupport::Concern
-
+module TestRequest #:nodoc:
   def _subject_klass
     @subject_klass.constantize
   end
@@ -94,16 +92,17 @@ module TestRequest
   # Tests GET, POST on object list
   def test_path_list(args)
     # Path List
-    path "/#{args[:subject_key].to_s.pluralize}" do
+    path "/api/v1/#{args[:subject_key].to_s.pluralize}" do
       get summary: 'fetch list' do
         produces 'application/json'
+        tags args[:subject_key]
         response 200, description: 'success'
       end
 
       post summary: 'create item' do
         produces 'application/json'
         consumes 'application/json'
-
+        tags args[:subject_key]
         parameter 'body', in: :body, schema: args[:obj_schema]
 
         let(:body) { args[:new_body] }
@@ -124,18 +123,20 @@ module TestRequest
 
   # Tests GET, PATCH, PUT, DELETE on object
   def test_path_object(args)
-    path "/#{args[:subject_key].to_s.pluralize}/{id}" do
+    path "/api/v1/#{args[:subject_key].to_s.pluralize}/{id}" do
       parameter 'id', in: :path, type: :integer
       let(:id) { 1 }
 
       get summary: 'fetch item' do
         produces 'application/json'
+        tags args[:subject_key]
         response 200, description: 'success', schema: args[:obj_schema]
       end
 
       patch summary: 'update item' do
         produces 'application/json'
         consumes 'application/json'
+        tags args[:subject_key]
         parameter 'body', in: :body, schema: args[:body_schema]
 
         let(:body) { { args[:subject_key] => { name: 'Update Test Patch' } } }
@@ -155,6 +156,7 @@ module TestRequest
       put summary: 'update item' do
         produces 'application/json'
         consumes 'application/json'
+        tags args[:subject_key]
         parameter 'body', in: :body, schema: args[:body_schema]
 
         let(:body) { { args[:subject_key] => { name: 'Update Test Put' } } }
@@ -172,6 +174,7 @@ module TestRequest
       end
 
       delete summary: 'delete item' do
+        tags args[:subject_key]
         response(204, description: 'successfully deleted')
       end
     end
