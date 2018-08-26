@@ -47,6 +47,6 @@ class SurvivalActionsController < ApplicationController
 
   # Only allow a trusted parameter "white list" through.
   def survival_action_params
-    params.fetch(:survival_action, {})
+    params.fetch(:survival_action, {}).permit(:name)
   end
 end

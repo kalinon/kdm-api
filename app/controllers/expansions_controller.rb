@@ -47,6 +47,6 @@ class ExpansionsController < ApplicationController
 
   # Only allow a trusted parameter "white list" through.
   def expansion_params
-    params.fetch(:expansion, {})
+    params.fetch(:expansion, {}).permit(:name)
   end
 end

@@ -1,5 +1,6 @@
 require 'rspec/rails/swagger'
 require 'rails_helper'
+require 'test_request'
 
 RSpec.configure do |config|
   # Specify a root directory where the generated Swagger files will be saved.
@@ -15,4 +16,6 @@ RSpec.configure do |config|
       }
     }
   }
+
+  config.extend TestRequest
 end

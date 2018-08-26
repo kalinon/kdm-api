@@ -47,6 +47,6 @@ class ResourceTypesController < ApplicationController
 
   # Only allow a trusted parameter "white list" through.
   def resource_type_params
-    params.fetch(:resource_type, {})
+    params.fetch(:resource_type, {}).permit(:name, :expansion_id)
   end
 end

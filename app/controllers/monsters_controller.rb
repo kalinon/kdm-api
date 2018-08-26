@@ -47,6 +47,6 @@ class MonstersController < ApplicationController
 
   # Only allow a trusted parameter "white list" through.
   def monster_params
-    params.fetch(:monster, {})
+    params.fetch(:monster, {}).permit(:name, :expansion_id)
   end
 end

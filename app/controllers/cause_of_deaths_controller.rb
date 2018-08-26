@@ -47,6 +47,6 @@ class CauseOfDeathsController < ApplicationController
 
   # Only allow a trusted parameter "white list" through.
   def cause_of_death_params
-    params.fetch(:cause_of_death, {})
+    params.fetch(:cause_of_death, {}).permit(:name, :expansion_id)
   end
 end

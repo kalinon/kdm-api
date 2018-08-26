@@ -47,6 +47,6 @@ class EpithetsController < ApplicationController
 
   # Only allow a trusted parameter "white list" through.
   def epithet_params
-    params.fetch(:epithet, {})
+    params.fetch(:epithet, {}).permit(:name, :expansion_id)
   end
 end

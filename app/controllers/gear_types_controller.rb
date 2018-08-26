@@ -47,6 +47,6 @@ class GearTypesController < ApplicationController
 
   # Only allow a trusted parameter "white list" through.
   def gear_type_params
-    params.fetch(:gear_type, {})
+    params.fetch(:gear_type, {}).permit(:name, :expansion_id)
   end
 end
