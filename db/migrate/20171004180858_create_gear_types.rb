@@ -1,4 +1,4 @@
-class CreateGearTypes < ActiveRecord::Migration[5.1]
+class CreateGearTypes < ActiveRecord::Migration[5.1] #:nodoc:
   def change
     create_table :gear_types do |t|
       t.string :name

@@ -1,4 +1,4 @@
-class CreateWeaponProficiencies < ActiveRecord::Migration[5.1]
+class CreateWeaponProficiencies < ActiveRecord::Migration[5.1] #:nodoc:
   def change
     create_table :weapon_proficiencies do |t|
       t.string :name

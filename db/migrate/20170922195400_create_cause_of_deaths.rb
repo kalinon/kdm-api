@@ -1,4 +1,4 @@
-class CreateCauseOfDeaths < ActiveRecord::Migration[5.1]
+class CreateCauseOfDeaths < ActiveRecord::Migration[5.1] #:nodoc:
   def change
     create_table :cause_of_deaths do |t|
       t.string :name

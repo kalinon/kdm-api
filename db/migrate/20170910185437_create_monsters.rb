@@ -1,4 +1,4 @@
-class CreateMonsters < ActiveRecord::Migration[5.1]
+class CreateMonsters < ActiveRecord::Migration[5.1] #:nodoc:
   def change
     create_table :monsters do |t|
       t.string :name

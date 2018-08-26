@@ -1,4 +1,4 @@
-class CreateEpithets < ActiveRecord::Migration[5.1]
+class CreateEpithets < ActiveRecord::Migration[5.1] #:nodoc:
   def change
     create_table :epithets do |t|
       t.string :name

@@ -1,4 +1,4 @@
-class CreateResourceTypes < ActiveRecord::Migration[5.1]
+class CreateResourceTypes < ActiveRecord::Migration[5.1] #:nodoc:
   def change
     create_table :resource_types do |t|
       t.string :name

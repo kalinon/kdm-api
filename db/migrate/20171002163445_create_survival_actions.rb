@@ -1,4 +1,4 @@
-class CreateSurvivalActions < ActiveRecord::Migration[5.1]
+class CreateSurvivalActions < ActiveRecord::Migration[5.1] #:nodoc:
   def change
     create_table :survival_actions do |t|
       t.string :name

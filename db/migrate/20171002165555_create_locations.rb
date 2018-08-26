@@ -1,4 +1,4 @@
-class CreateLocations < ActiveRecord::Migration[5.1]
+class CreateLocations < ActiveRecord::Migration[5.1] #:nodoc:
   def change
     create_table :locations do |t|
       t.string :name
