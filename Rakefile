@@ -5,8 +5,10 @@ require_relative 'config/application'
 
 Rails.application.load_tasks
 
-YARD::Rake::YardocTask.new do |t|
-  t.files = ['lib/**/*.rb', 'app/**/*.rb'] # optional
-  t.options = %w[--private] # optional
-  t.stats_options = ['--list-undoc'] # optional
+if ENV['RAILS_ENV'] != 'production'
+  YARD::Rake::YardocTask.new do |t|
+    t.files = ['lib/**/*.rb', 'app/**/*.rb'] # optional
+    t.options = %w[--private] # optional
+    t.stats_options = ['--list-undoc'] # optional
+  end
 end
