@@ -6,6 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+# @return [Expansion]
 def core_exp
   @core_exp ||= Expansion.where(safe_name: 'core').first
 end
@@ -141,6 +142,7 @@ def create_resources(data)
   end
 end
 
+# @param data [Hash]
 def create_gear_types(data)
   data.each_value do |gear|
     GearType.create(
@@ -152,6 +154,7 @@ def create_gear_types(data)
   end
 end
 
+# @param data [Hash]
 def create_epithets(data)
   data.each_value do |sub_data|
     sub_data.each_value do |epi|
@@ -191,3 +194,10 @@ puts "\n== Creating Gear Types =="
 create_gear_types(kdm_manager[:locations][:gear])
 puts "\n== Creating Epithets =="
 create_epithets(kdm_manager[:epithets])
+
+puts "\n== Creating Default User =="
+User.new(
+  username: 'admin',
+  email: 'admin@kdm-api.com',
+  password: 'password'
+).save!

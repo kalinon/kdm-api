@@ -34,9 +34,9 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.6'
   gem 'rspec-rails-swagger'
   gem 'rubocop-rspec'
-  gem 'yard'
   gem 'vcr'
   gem 'webmock'
+  gem 'yard'
 end
 
 group :development do
@@ -51,3 +51,6 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'jsonapi-resources', '~> 0.9.0'
 gem 'mysql2', '>= 0.3.18'
+
+gem 'devise', '>= 4.4.0'
+gem 'doorkeeper', '>= 4.2.6'

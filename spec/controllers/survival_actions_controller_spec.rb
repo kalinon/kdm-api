@@ -84,7 +84,7 @@ RSpec.describe SurvivalActionsController, type: :controller do
   describe 'PUT #update' do
     context 'with valid params' do
       let(:new_attributes) do
-        {name: 'new-name'}
+        { name: 'new-name' }
       end
 
       it 'updates the requested survival_action' do
