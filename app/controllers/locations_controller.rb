@@ -26,7 +26,7 @@ class LocationsController < ApplicationController
 
   # PATCH/PUT /locations/1
   def update
-    if @location.update(location_params)
+    if !location_params.empty? && @location.update(location_params)
       render json: @location
     else
       render json: @location.errors, status: :unprocessable_entity

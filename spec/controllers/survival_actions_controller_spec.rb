@@ -28,11 +28,11 @@ RSpec.describe SurvivalActionsController, type: :controller do
   # SurvivalAction. As you add validations to SurvivalAction, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) do
-    skip('Add a hash of attributes valid for your model')
+    attributes_for(:survival_action)
   end
 
   let(:invalid_attributes) do
-    skip('Add a hash of attributes invalid for your model')
+    { made_up: 'value' }
   end
 
   # This should return the minimal set of values that should be in the session
@@ -84,14 +84,14 @@ RSpec.describe SurvivalActionsController, type: :controller do
   describe 'PUT #update' do
     context 'with valid params' do
       let(:new_attributes) do
-        skip('Add a hash of attributes valid for your model')
+        {name: 'new-name'}
       end
 
       it 'updates the requested survival_action' do
         survival_action = SurvivalAction.create! valid_attributes
         put :update, params: { id: survival_action.to_param, survival_action: new_attributes }, session: valid_session
         survival_action.reload
-        skip('Add assertions for updated state')
+        expect(survival_action.name).to eq 'new-name'
       end
 
       it 'renders a JSON response with the survival_action' do

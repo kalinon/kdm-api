@@ -26,7 +26,7 @@ class WeaponProficienciesController < ApplicationController
 
   # PATCH/PUT /weapon_proficiencies/1
   def update
-    if @weapon_proficiency.update(weapon_proficiency_params)
+    if !weapon_proficiency_params.empty? && @weapon_proficiency.update(weapon_proficiency_params)
       render json: @weapon_proficiency
     else
       render json: @weapon_proficiency.errors, status: :unprocessable_entity

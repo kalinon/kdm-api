@@ -26,7 +26,7 @@ class EpithetsController < ApplicationController
 
   # PATCH/PUT /epithets/1
   def update
-    if @epithet.update(epithet_params)
+    if !epithet_params.empty? && @epithet.update(epithet_params)
       render json: @epithet
     else
       render json: @epithet.errors, status: :unprocessable_entity

@@ -26,7 +26,7 @@ class ResourceTypesController < ApplicationController
 
   # PATCH/PUT /resource_types/1
   def update
-    if @resource_type.update(resource_type_params)
+    if !resource_type_params.empty? && @resource_type.update(resource_type_params)
       render json: @resource_type
     else
       render json: @resource_type.errors, status: :unprocessable_entity

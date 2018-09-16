@@ -26,7 +26,7 @@ class GearTypesController < ApplicationController
 
   # PATCH/PUT /gear_types/1
   def update
-    if @gear_type.update(gear_type_params)
+    if !gear_type_params.empty? && @gear_type.update(gear_type_params)
       render json: @gear_type
     else
       render json: @gear_type.errors, status: :unprocessable_entity

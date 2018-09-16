@@ -26,7 +26,7 @@ class CauseOfDeathsController < ApplicationController
 
   # PATCH/PUT /cause_of_deaths/1
   def update
-    if @cause_of_death.update(cause_of_death_params)
+    if !cause_of_death_params.empty? && @cause_of_death.update(cause_of_death_params)
       render json: @cause_of_death
     else
       render json: @cause_of_death.errors, status: :unprocessable_entity

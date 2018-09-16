@@ -4,7 +4,6 @@ class SurvivalActionsController < ApplicationController
   # GET /survival_actions
   def index
     @survival_actions = SurvivalAction.all
-
     render json: @survival_actions
   end
 
@@ -26,7 +25,7 @@ class SurvivalActionsController < ApplicationController
 
   # PATCH/PUT /survival_actions/1
   def update
-    if @survival_action.update(survival_action_params)
+    if !survival_action_params.empty? && @survival_action.update(survival_action_params)
       render json: @survival_action
     else
       render json: @survival_action.errors, status: :unprocessable_entity

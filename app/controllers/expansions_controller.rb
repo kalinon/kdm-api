@@ -26,7 +26,7 @@ class ExpansionsController < ApplicationController
 
   # PATCH/PUT /expansions/1
   def update
-    if @expansion.update(expansion_params)
+    if !expansion_params.empty? && @expansion.update(expansion_params)
       render json: @expansion
     else
       render json: @expansion.errors, status: :unprocessable_entity

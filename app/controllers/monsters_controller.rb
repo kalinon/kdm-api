@@ -26,7 +26,7 @@ class MonstersController < ApplicationController
 
   # PATCH/PUT /monsters/1
   def update
-    if @monster.update(monster_params)
+    if !monster_params.empty? && @monster.update(monster_params)
       render json: @monster
     else
       render json: @monster.errors, status: :unprocessable_entity

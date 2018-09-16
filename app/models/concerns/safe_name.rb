@@ -5,8 +5,8 @@ module SafeName
     before_save :safe_name
     before_update :update_safe_name
 
-    validates_presence_of :name, :safe_name
-    validates_uniqueness_of :name, :safe_name
+    validates_presence_of :name
+    validates_uniqueness_of :name
   end
 
   def safe_name
