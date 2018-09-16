@@ -1,6 +1,6 @@
 require 'rspec/rails/swagger'
 require 'rails_helper'
-require 'test_request'
+require 'support/swagger_request'
 
 RSpec.configure do |config|
   # Specify a root directory where the generated Swagger files will be saved.
@@ -14,11 +14,9 @@ RSpec.configure do |config|
         title: 'KDM API V1',
         version: 'v1'
       },
-      host: 'kdm-api.com',
+      host: ENV.fetch('SWAGGER_HOST') { '127.0.0.1:5000' },
       basePath: '/api/v1',
-      schemes: ['https']
+      schemes: %w[http]
     }
   }
-
-  config.extend TestRequest
 end

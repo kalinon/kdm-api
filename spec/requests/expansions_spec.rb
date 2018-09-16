@@ -1,5 +1,5 @@
 require 'swagger_helper'
 
 RSpec.describe 'Expansions', type: :request do
-  test_request
+  include_examples 'swagger requests', ::Expansion
 end

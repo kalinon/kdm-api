@@ -1,5 +1,5 @@
 require 'swagger_helper'
 
 RSpec.describe 'CauseOfDeaths', type: :request do
-  test_request
+  include_examples 'swagger requests', ::CauseOfDeath
 end

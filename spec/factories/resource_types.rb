@@ -3,6 +3,6 @@ FactoryBot.define do
     name { 'MyString' }
     safe_name { 'MyString' }
     color { 'MyString' }
-    expansion { 'MyString' }
+    expansion_id { 1 }
   end
 end

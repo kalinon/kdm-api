@@ -35,6 +35,8 @@ group :development, :test do
   gem 'rspec-rails-swagger'
   gem 'rubocop-rspec'
   gem 'yard'
+  gem 'vcr'
+  gem 'webmock'
 end
 
 group :development do
