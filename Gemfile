@@ -49,7 +49,6 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
-gem 'jsonapi-resources', '~> 0.9.0'
 gem 'mysql2', '>= 0.3.18'
 
 gem 'devise', '>= 4.4.0'

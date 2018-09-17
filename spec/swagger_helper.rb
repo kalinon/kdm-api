@@ -16,13 +16,13 @@ RSpec.configure do |config|
       },
       host: ENV.fetch('SWAGGER_HOST') { '127.0.0.1:3000' },
       basePath: '/api/v1',
-      schemes: %w[http],
+      schemes: %w[https],
       securityDefinitions: {
         OAuth2: {
           type: :oauth2,
           flow: :accessCode,
-          authorizationUrl: "http://#{ENV.fetch('SWAGGER_HOST') { '127.0.0.1:3000' }}/api/oauth/authorize",
-          tokenUrl: "http://#{ENV.fetch('SWAGGER_HOST') { '127.0.0.1:3000' }}/api/oauth/token",
+          authorizationUrl: "https://#{ENV.fetch('SWAGGER_HOST') { '127.0.0.1:3000' }}/api/oauth/authorize",
+          tokenUrl: "https://#{ENV.fetch('SWAGGER_HOST') { '127.0.0.1:3000' }}/api/oauth/token",
           scopes: {
             read: 'Grants read access',
             write: 'Grants write access',
