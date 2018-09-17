@@ -40,6 +40,12 @@ RSpec.describe WeaponProficienciesController, type: :controller do
   # WeaponProficienciesController. Be sure to keep this updated too.
   let(:valid_session) { {} }
 
+  let(:token) { double acceptable?: true }
+
+  before do
+    allow(controller).to receive(:doorkeeper_token) { token } # => RSpec 3
+  end
+
   describe 'GET #index' do
     it 'returns a success response' do
       weapon_proficiency = WeaponProficiency.create! valid_attributes
