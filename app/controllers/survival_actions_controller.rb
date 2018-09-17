@@ -1,4 +1,4 @@
-class SurvivalActionsController < ApplicationController
+class SurvivalActionsController < Api::V1::ApiControllerController
   before_action :set_survival_action, only: %i[show update destroy]
 
   # GET /survival_actions

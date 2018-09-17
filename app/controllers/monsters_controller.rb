@@ -1,4 +1,4 @@
-class MonstersController < ApplicationController
+class MonstersController < Api::V1::ApiControllerController
   before_action :set_monster, only: %i[show update destroy]
 
   # GET /monsters

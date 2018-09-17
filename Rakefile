@@ -4,6 +4,7 @@
 require_relative 'config/application'
 
 Rails.application.load_tasks
+Doorkeeper::Rake.load_tasks
 
 if ENV['RAILS_ENV'] != 'production'
   YARD::Rake::YardocTask.new do |t|

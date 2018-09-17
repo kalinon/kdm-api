@@ -1,4 +1,4 @@
-class GearTypesController < ApplicationController
+class GearTypesController < Api::V1::ApiControllerController
   before_action :set_gear_type, only: %i[show update destroy]
 
   # GET /gear_types

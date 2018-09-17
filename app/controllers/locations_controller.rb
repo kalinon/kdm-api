@@ -1,4 +1,4 @@
-class LocationsController < ApplicationController
+class LocationsController < Api::V1::ApiControllerController
   before_action :set_location, only: %i[show update destroy]
 
   # GET /locations

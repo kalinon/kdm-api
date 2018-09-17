@@ -1,4 +1,4 @@
-class ResourceTypesController < ApplicationController
+class ResourceTypesController < Api::V1::ApiControllerController
   before_action :set_resource_type, only: %i[show update destroy]
 
   # GET /resource_types
