@@ -200,4 +200,4 @@ User.new(
   username: 'admin',
   email: 'admin@kdm-api.com',
   password: 'password'
-).save!
+).save

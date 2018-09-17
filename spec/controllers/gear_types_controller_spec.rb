@@ -28,11 +28,11 @@ RSpec.describe GearTypesController, type: :controller do
   # GearType. As you add validations to GearType, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) do
-    skip('Add a hash of attributes valid for your model')
+    attributes_for(:gear_type)
   end
 
   let(:invalid_attributes) do
-    skip('Add a hash of attributes invalid for your model')
+    { made_up: 'value' }
   end
 
   # This should return the minimal set of values that should be in the session
@@ -90,14 +90,14 @@ RSpec.describe GearTypesController, type: :controller do
   describe 'PUT #update' do
     context 'with valid params' do
       let(:new_attributes) do
-        skip('Add a hash of attributes valid for your model')
+        { name: 'new-name' }
       end
 
       it 'updates the requested gear_type' do
         gear_type = GearType.create! valid_attributes
         put :update, params: { id: gear_type.to_param, gear_type: new_attributes }, session: valid_session
         gear_type.reload
-        skip('Add assertions for updated state')
+        expect(gear_type.name).to eq 'new-name'
       end
 
       it 'renders a JSON response with the gear_type' do

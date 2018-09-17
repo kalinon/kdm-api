@@ -83,20 +83,29 @@ module SwaggerRequest
 
   # Tests GET, POST on object list
   def test_path_list(args)
+    let!(:application) { Doorkeeper::Application.create!(name: 'MyApp', redirect_uri: 'https://app.com') }
+    let!(:user) { User.create!(username: 'ax', email: 'ax@b.com', password: 'abc123', password_confirmation: 'abc123') }
+    let!(:token) { Doorkeeper::AccessToken.create!(application_id: application.id, resource_owner_id: user.id, scopes: 'read admin') }
+
     # Path List
     path "/#{args[:subject_url]}" do
-      get summary: 'fetch list' do
+
+      parameter 'Authorization', in: :header, type: :string, required: true
+      let(:Authorization) { "Bearer #{token.token}" }
+
+      get summary: 'fetch list', security: [{ OAuth2: [:read] }] do
+
         produces 'application/json'
         tags args[:subject_key]
         response 200, description: 'success'
       end
 
-      post summary: 'create item' do
+      post summary: 'create item', security: [{ OAuth2: [:write, :admin] }] do
         produces 'application/json'
         consumes 'application/json'
         tags args[:subject_key]
-        parameter 'body', in: :body, schema: args[:obj_schema]
 
+        parameter 'body', in: :body, schema: args[:obj_schema]
         let(:body) { args[:new_body] }
 
         response(201, description: 'successfully created') do
@@ -124,13 +133,16 @@ module SwaggerRequest
       parameter 'id', in: :path, type: :integer
       let(:id) { args[:subject_klass].first.id }
 
-      get summary: 'fetch item' do
+      parameter 'Authorization', in: :header, type: :string
+      let(:Authorization) { "Bearer #{token.token}" }
+
+      get summary: 'fetch item', security: [{ OAuth2: [:read] }] do
         produces 'application/json'
         tags args[:subject_key]
         response 200, description: 'success', schema: args[:obj_schema]
       end
 
-      patch summary: 'update item' do
+      patch summary: 'update item', security: [{ OAuth2: [:write, :admin] }] do
         produces 'application/json'
         consumes 'application/json'
         tags args[:subject_key]
@@ -152,12 +164,12 @@ module SwaggerRequest
         end
       end
 
-      put summary: 'update item' do
+      put summary: 'update item', security: [{ OAuth2: [:write, :admin] }] do
         produces 'application/json'
         consumes 'application/json'
         tags args[:subject_key]
-        parameter 'body', in: :body, schema: args[:body_schema]
 
+        parameter 'body', in: :body, schema: args[:body_schema]
         let(:body) { args[:update_body] }
 
         response(200, description: 'successfully created') do
@@ -174,7 +186,7 @@ module SwaggerRequest
         end
       end
 
-      delete summary: 'delete item' do
+      delete summary: 'delete item', security: [{ OAuth2: [:write, :admin] }] do
         tags args[:subject_key]
         response(204, description: 'successfully deleted')
       end

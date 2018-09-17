@@ -28,11 +28,11 @@ RSpec.describe CauseOfDeathsController, type: :controller do
   # CauseOfDeath. As you add validations to CauseOfDeath, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) do
-    skip('Add a hash of attributes valid for your model')
+    attributes_for(:cause_of_death)
   end
 
   let(:invalid_attributes) do
-    skip('Add a hash of attributes invalid for your model')
+    { made_up: 'value' }
   end
 
   # This should return the minimal set of values that should be in the session
@@ -90,14 +90,14 @@ RSpec.describe CauseOfDeathsController, type: :controller do
   describe 'PUT #update' do
     context 'with valid params' do
       let(:new_attributes) do
-        skip('Add a hash of attributes valid for your model')
+        { name: 'new-name' }
       end
 
       it 'updates the requested cause_of_death' do
         cause_of_death = CauseOfDeath.create! valid_attributes
         put :update, params: { id: cause_of_death.to_param, cause_of_death: new_attributes }, session: valid_session
         cause_of_death.reload
-        skip('Add assertions for updated state')
+        expect(cause_of_death.name).to eq 'new-name'
       end
 
       it 'renders a JSON response with the cause_of_death' do

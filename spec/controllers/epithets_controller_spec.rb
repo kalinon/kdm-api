@@ -28,11 +28,11 @@ RSpec.describe EpithetsController, type: :controller do
   # Epithet. As you add validations to Epithet, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) do
-    skip('Add a hash of attributes valid for your model')
+    attributes_for(:epithet)
   end
 
   let(:invalid_attributes) do
-    skip('Add a hash of attributes invalid for your model')
+    { made_up: 'value' }
   end
 
   # This should return the minimal set of values that should be in the session
@@ -90,14 +90,14 @@ RSpec.describe EpithetsController, type: :controller do
   describe 'PUT #update' do
     context 'with valid params' do
       let(:new_attributes) do
-        skip('Add a hash of attributes valid for your model')
+        { name: 'new-name' }
       end
 
       it 'updates the requested epithet' do
         epithet = Epithet.create! valid_attributes
         put :update, params: { id: epithet.to_param, epithet: new_attributes }, session: valid_session
         epithet.reload
-        skip('Add assertions for updated state')
+        expect(epithet.name).to eq 'new-name'
       end
 
       it 'renders a JSON response with the epithet' do

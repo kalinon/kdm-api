@@ -26,3 +26,6 @@
 !.keep
 
 .byebug_history
+.env
+spec/cassettes/
+swagger/

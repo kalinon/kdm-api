@@ -28,11 +28,11 @@ RSpec.describe WeaponProficienciesController, type: :controller do
   # WeaponProficiency. As you add validations to WeaponProficiency, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) do
-    skip('Add a hash of attributes valid for your model')
+    attributes_for(:weapon_proficiency)
   end
 
   let(:invalid_attributes) do
-    skip('Add a hash of attributes invalid for your model')
+    { made_up: 'value' }
   end
 
   # This should return the minimal set of values that should be in the session
@@ -90,14 +90,14 @@ RSpec.describe WeaponProficienciesController, type: :controller do
   describe 'PUT #update' do
     context 'with valid params' do
       let(:new_attributes) do
-        skip('Add a hash of attributes valid for your model')
+        { name: 'new-name' }
       end
 
       it 'updates the requested weapon_proficiency' do
         weapon_proficiency = WeaponProficiency.create! valid_attributes
         put :update, params: { id: weapon_proficiency.to_param, weapon_proficiency: new_attributes }, session: valid_session
         weapon_proficiency.reload
-        skip('Add assertions for updated state')
+        expect(weapon_proficiency.name).to eq 'new-name'
       end
 
       it 'renders a JSON response with the weapon_proficiency' do

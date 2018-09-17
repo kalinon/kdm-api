@@ -28,11 +28,11 @@ RSpec.describe ResourceTypesController, type: :controller do
   # ResourceType. As you add validations to ResourceType, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) do
-    skip('Add a hash of attributes valid for your model')
+    attributes_for(:resource_type)
   end
 
   let(:invalid_attributes) do
-    skip('Add a hash of attributes invalid for your model')
+    { made_up: 'value' }
   end
 
   # This should return the minimal set of values that should be in the session
@@ -90,14 +90,14 @@ RSpec.describe ResourceTypesController, type: :controller do
   describe 'PUT #update' do
     context 'with valid params' do
       let(:new_attributes) do
-        skip('Add a hash of attributes valid for your model')
+        { name: 'new-name' }
       end
 
       it 'updates the requested resource_type' do
         resource_type = ResourceType.create! valid_attributes
         put :update, params: { id: resource_type.to_param, resource_type: new_attributes }, session: valid_session
         resource_type.reload
-        skip('Add assertions for updated state')
+        expect(resource_type.name).to eq 'new-name'
       end
 
       it 'renders a JSON response with the resource_type' do

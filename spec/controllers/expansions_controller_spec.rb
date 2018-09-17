@@ -28,11 +28,11 @@ RSpec.describe ExpansionsController, type: :controller do
   # Expansion. As you add validations to Expansion, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) do
-    skip('Add a hash of attributes valid for your model')
+    attributes_for(:expansion)
   end
 
   let(:invalid_attributes) do
-    skip('Add a hash of attributes invalid for your model')
+    { made_up: 'value' }
   end
 
   # This should return the minimal set of values that should be in the session
@@ -90,14 +90,14 @@ RSpec.describe ExpansionsController, type: :controller do
   describe 'PUT #update' do
     context 'with valid params' do
       let(:new_attributes) do
-        skip('Add a hash of attributes valid for your model')
+        { name: 'new-name' }
       end
 
       it 'updates the requested expansion' do
         expansion = Expansion.create! valid_attributes
         put :update, params: { id: expansion.to_param, expansion: new_attributes }, session: valid_session
         expansion.reload
-        skip('Add assertions for updated state')
+        expect(expansion.name).to eq 'new-name'
       end
 
       it 'renders a JSON response with the expansion' do
