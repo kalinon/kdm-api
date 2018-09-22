@@ -53,3 +53,4 @@ gem 'mysql2', '>= 0.3.18'
 
 gem 'devise', '>= 4.4.0'
 gem 'doorkeeper', '>= 4.2.6'
+gem 'doorkeeper-jwt'

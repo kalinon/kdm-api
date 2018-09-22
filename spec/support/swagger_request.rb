@@ -89,18 +89,16 @@ module SwaggerRequest
 
     # Path List
     path "/#{args[:subject_url]}" do
-
       parameter 'Authorization', in: :header, type: :string, required: true
       let(:Authorization) { "Bearer #{token.token}" }
 
       get summary: 'fetch list', security: [{ OAuth2: [:read] }] do
-
         produces 'application/json'
         tags args[:subject_key]
         response 200, description: 'success'
       end
 
-      post summary: 'create item', security: [{ OAuth2: [:write, :admin] }] do
+      post summary: 'create item', security: [{ OAuth2: %i[write admin] }] do
         produces 'application/json'
         consumes 'application/json'
         tags args[:subject_key]
@@ -142,7 +140,7 @@ module SwaggerRequest
         response 200, description: 'success', schema: args[:obj_schema]
       end
 
-      patch summary: 'update item', security: [{ OAuth2: [:write, :admin] }] do
+      patch summary: 'update item', security: [{ OAuth2: %i[write admin] }] do
         produces 'application/json'
         consumes 'application/json'
         tags args[:subject_key]
@@ -164,7 +162,7 @@ module SwaggerRequest
         end
       end
 
-      put summary: 'update item', security: [{ OAuth2: [:write, :admin] }] do
+      put summary: 'update item', security: [{ OAuth2: %i[write admin] }] do
         produces 'application/json'
         consumes 'application/json'
         tags args[:subject_key]
@@ -186,7 +184,7 @@ module SwaggerRequest
         end
       end
 
-      delete summary: 'delete item', security: [{ OAuth2: [:write, :admin] }] do
+      delete summary: 'delete item', security: [{ OAuth2: %i[write admin] }] do
         tags args[:subject_key]
         response(204, description: 'successfully deleted')
       end
