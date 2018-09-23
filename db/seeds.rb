@@ -201,3 +201,4 @@ User.new(
   email: 'admin@kdm-api.com',
   password: 'password'
 ).save
+Doorkeeper::Application.create(name: 'test_client', redirect_uri: 'http://127.0.0.1:4200/auth/auth_server/callback')

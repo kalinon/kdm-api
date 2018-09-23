@@ -1,4 +1,4 @@
-class EpithetsController < Api::V1::ApiControllerController
+class EpithetsController < Api::V1::ApiController
   before_action :set_epithet, only: %i[show update destroy]
 
   # GET /epithets

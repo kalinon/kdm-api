@@ -1,4 +1,4 @@
-class CauseOfDeathsController < Api::V1::ApiControllerController
+class CauseOfDeathsController < Api::V1::ApiController
   before_action :set_cause_of_death, only: %i[show update destroy]
 
   # GET /cause_of_deaths

@@ -1,4 +1,4 @@
-class ExpansionsController < Api::V1::ApiControllerController
+class ExpansionsController < Api::V1::ApiController
   before_action :set_expansion, only: %i[show update destroy]
 
   # GET /expansions

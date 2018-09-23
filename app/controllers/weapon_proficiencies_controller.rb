@@ -1,4 +1,4 @@
-class WeaponProficienciesController < Api::V1::ApiControllerController
+class WeaponProficienciesController < Api::V1::ApiController
   before_action :set_weapon_proficiency, only: %i[show update destroy]
 
   # GET /weapon_proficiencies
